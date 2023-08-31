@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href = "connect.css" id = 'stylesheet'>
+        <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/connect.js"></script>
+        <title>Connect</title>
+
+    </head>
+    <body>
+        <button class="theme_switch" onclick="switch_theme()"></button>
+        <center>
+            <h1>Connect</h1>
+
+            <div class = "main">
+
+                <table>
+                    
+                    <tr>
+                        <td><input value = "Хост" id = "host" class = "in"></td>
+                    </tr>
+                    <tr>
+                        <td><input value = "Пользователь" id = "user" class = "in"></td>
+                    </tr>
+                    <tr>
+                        <td><input value = "Пароль" id = "password" class = "in"></td>
+                    </tr>
+                    <tr>
+                        <td><input value = "Название Базы Данных" id = "database" class = "in"></td>
+                    </tr>
+
+                </table>
+
+                <input type="checkbox" id="remember">Запомнить</input>
+
+                <button type="submit" onclick="eel.take_data([document.getElementById('host').value, document.getElementById('user').value, document.getElementById('password').value, document.getElementById('database').value], document.getElementById('remember').value)">Подключиться</button>
+            </center>
+        </div>
+    </body>
+</html>

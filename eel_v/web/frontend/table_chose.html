@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href = "table_chose.css" id = 'stylesheet'>
+        <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/table_chose.js"></script>
+        <title>Table Chose</title>
+
+    </head>
+
+    <body>
+        <button class="theme_switch" onclick="switch_theme()"></button>
+        <center>
+            <div class = "main">
+                <center>
+
+                    <h1>Table Chose</h1>
+
+                    <table id = "command_tb">
+                        <tr>
+                            <td colspan="2">
+                                <input id = 'command'>
+                            </td>
+                            <td>
+                                <button id = 'exec' onclick = 'make_command()'>→</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id = 'create_table' onclick="go_to_create()">Создать таблицу</button>
+                            </td>
+                            <td>
+                                <button id = 'delete_table' onclick="delete_last()">Удалить последнюю</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table id = 'main_table'>
+                    </table>
+                </center>
+            </div>
+        </center>
+    </body>
+
+</html>

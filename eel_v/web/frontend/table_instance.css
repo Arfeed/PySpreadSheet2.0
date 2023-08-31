@@ -1,0 +1,40 @@
+body {
+
+	background-color: lightgray;
+
+}
+
+h1 {
+
+	border-radius: 8px;
+	background-color: lightcoral;
+	color: white;
+	width: 25vw;
+	height:50px;
+	font: 2vw 'Andale Mono', monospace;
+
+}
+
+button{
+
+	font: 12pt 'Andale Mono', monospace;
+	color: gray;
+	border-radius: 8px;
+
+}
+
+.back_button{
+
+	width: 40px;
+
+}
+
+.theme_switch{
+
+	border-radius: 10px;
+	width: 25px;
+	height: 25px;
+	background-image: url('images/moon.png');
+	background-size: cover;
+
+}

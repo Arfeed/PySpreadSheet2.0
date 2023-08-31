@@ -1,0 +1,228 @@
+DataBase:2023-08-30 19:09:51.597738:
+
+Program Start Here
+DataBase:2023-08-30 19:09:51.613572:Connection is OK.
+DataBase:2023-08-30 19:09:51.613572:Complete login for user root at host localhost.
+DataBase:2023-08-30 19:09:52.010738:Cursor for command is OK.
+DataBase:2023-08-30 19:09:52.011772:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:09:53.021135:Cursor for command is OK.
+DataBase:2023-08-30 19:09:53.023129:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-08-30 19:09:53.024124:Cursor for command is OK.
+DataBase:2023-08-30 19:09:53.025122:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:09:53.025122:Cursor for command is OK.
+DataBase:2023-08-30 19:09:53.029110:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:09:53.423693:Cursor for command is OK.
+DataBase:2023-08-30 19:09:53.424720:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-08-30 19:09:53.424720:Cursor for command is OK.
+DataBase:2023-08-30 19:09:53.426107:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:09:54.643976:Cursor for command is OK.
+DataBase:2023-08-30 19:09:54.645388:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:10:00.797248:Cursor for command is OK.
+DataBase:2023-08-30 19:10:00.799244:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-08-30 19:10:00.799244:Cursor for command is OK.
+DataBase:2023-08-30 19:10:00.800239:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-08-30 19:10:04.002390:Cursor for command is OK.
+DataBase:2023-08-30 19:10:04.003418:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:10:16.361488:Cursor for command is OK.
+DataBase:2023-08-30 19:10:16.363477:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:10:16.971854:Cursor for command is OK.
+DataBase:2023-08-30 19:10:16.972848:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-08-30 19:10:16.972848:Cursor for command is OK.
+DataBase:2023-08-30 19:10:16.974841:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:10:17.950445:Cursor for command is OK.
+DataBase:2023-08-30 19:10:17.952472:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:34:16.629234:
+
+Program Start Here
+DataBase:2023-08-30 19:34:16.694098:Connection is OK.
+DataBase:2023-08-30 19:34:16.694098:Complete login for user root at host localhost.
+DataBase:2023-08-30 19:34:31.428193:
+
+Program Start Here
+DataBase:2023-08-30 19:34:31.447901:Connection is OK.
+DataBase:2023-08-30 19:34:31.447901:Complete login for user root at host localhost.
+DataBase:2023-08-30 19:34:49.364429:
+
+Program Start Here
+DataBase:2023-08-30 19:34:49.383376:Connection is OK.
+DataBase:2023-08-30 19:34:49.383376:Complete login for user root at host localhost.
+DataBase:2023-08-30 19:34:49.781864:Cursor for command is OK.
+DataBase:2023-08-30 19:34:49.789276:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 19:36:08.567080:Cursor for command is OK.
+DataBase:2023-08-30 19:36:08.570072:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:00:43.939447:
+
+Program Start Here
+DataBase:2023-08-30 20:00:44.004288:Connection is OK.
+DataBase:2023-08-30 20:00:44.004288:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:00:44.413557:Cursor for command is OK.
+DataBase:2023-08-30 20:00:44.417547:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:00:48.530430:Cursor for command is OK.
+DataBase:2023-08-30 20:00:48.535415:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-08-30 20:00:48.535415:Cursor for command is OK.
+DataBase:2023-08-30 20:00:48.536413:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:00:48.537416:Cursor for command is OK.
+DataBase:2023-08-30 20:00:48.544390:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:00:48.935411:Cursor for command is OK.
+DataBase:2023-08-30 20:00:48.937406:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-08-30 20:00:48.937406:Cursor for command is OK.
+DataBase:2023-08-30 20:00:48.941395:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:00:53.336906:Cursor for command is OK.
+DataBase:2023-08-30 20:00:53.339900:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:00:58.137541:Cursor for command is OK.
+DataBase:2023-08-30 20:00:58.139537:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:01:08.178931:Cursor for command is OK.
+DataBase:2023-08-30 20:01:08.178931:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-08-30 20:01:08.179926:Cursor for command is OK.
+DataBase:2023-08-30 20:01:08.179926:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-08-30 20:01:12.844609:Cursor for command is OK.
+DataBase:2023-08-30 20:01:12.847599:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:04:33.714313:
+
+Program Start Here
+DataBase:2023-08-30 20:04:33.734260:Connection is OK.
+DataBase:2023-08-30 20:04:33.734260:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:04:34.135809:Cursor for command is OK.
+DataBase:2023-08-30 20:04:34.139857:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:06:34.914550:
+
+Program Start Here
+DataBase:2023-08-30 20:06:34.931503:Connection is OK.
+DataBase:2023-08-30 20:06:34.931503:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:06:35.386597:Cursor for command is OK.
+DataBase:2023-08-30 20:06:35.388591:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:08:41.522665:
+
+Program Start Here
+DataBase:2023-08-30 20:08:41.538684:Connection is OK.
+DataBase:2023-08-30 20:08:41.538684:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:08:42.291098:Cursor for command is OK.
+DataBase:2023-08-30 20:08:42.296083:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:08:57.154607:
+
+Program Start Here
+DataBase:2023-08-30 20:08:57.169566:Connection is OK.
+DataBase:2023-08-30 20:08:57.169566:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:08:57.643053:Cursor for command is OK.
+DataBase:2023-08-30 20:08:57.647042:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:14:43.043115:
+
+Program Start Here
+DataBase:2023-08-30 20:14:43.066053:Connection is OK.
+DataBase:2023-08-30 20:14:43.066053:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:14:43.525483:Cursor for command is OK.
+DataBase:2023-08-30 20:14:43.529240:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:16:14.425789:
+
+Program Start Here
+DataBase:2023-08-30 20:16:14.441746:Connection is OK.
+DataBase:2023-08-30 20:16:14.441746:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:16:14.912416:Cursor for command is OK.
+DataBase:2023-08-30 20:16:14.916404:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:24:50.697984:
+
+Program Start Here
+DataBase:2023-08-30 20:24:50.718932:Connection is OK.
+DataBase:2023-08-30 20:24:50.718932:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:24:51.200134:Cursor for command is OK.
+DataBase:2023-08-30 20:24:51.204122:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:27:22.441798:
+
+Program Start Here
+DataBase:2023-08-30 20:27:22.456758:Connection is OK.
+DataBase:2023-08-30 20:27:22.457754:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:30:40.792764:
+
+Program Start Here
+DataBase:2023-08-30 20:30:40.809722:Connection is OK.
+DataBase:2023-08-30 20:30:40.809722:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:30:41.302030:Cursor for command is OK.
+DataBase:2023-08-30 20:30:41.306020:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:35:27.121476:
+
+Program Start Here
+DataBase:2023-08-30 20:35:27.141422:Connection is OK.
+DataBase:2023-08-30 20:35:27.141422:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:35:27.902671:Cursor for command is OK.
+DataBase:2023-08-30 20:35:27.904664:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:40:01.576446:
+
+Program Start Here
+DataBase:2023-08-30 20:40:01.597390:Connection is OK.
+DataBase:2023-08-30 20:40:01.597390:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:40:01.994704:Cursor for command is OK.
+DataBase:2023-08-30 20:40:02.052548:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:45:42.008640:
+
+Program Start Here
+DataBase:2023-08-30 20:45:42.024564:Connection is OK.
+DataBase:2023-08-30 20:45:42.024564:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:45:42.427583:Cursor for command is OK.
+DataBase:2023-08-30 20:45:42.431571:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:46:23.760869:
+
+Program Start Here
+DataBase:2023-08-30 20:46:23.777821:Connection is OK.
+DataBase:2023-08-30 20:46:23.777821:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:46:31.320891:
+
+Program Start Here
+DataBase:2023-08-30 20:46:31.334854:Connection is OK.
+DataBase:2023-08-30 20:46:31.335851:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:46:33.768787:
+
+Program Start Here
+DataBase:2023-08-30 20:46:35.834330:
+
+Program Start Here
+DataBase:2023-08-30 20:46:36.858907:
+
+Program Start Here
+DataBase:2023-08-30 20:46:37.875038:
+
+Program Start Here
+DataBase:2023-08-30 20:46:38.895372:
+
+Program Start Here
+DataBase:2023-08-30 20:46:39.907901:
+
+Program Start Here
+DataBase:2023-08-30 20:48:21.265906:
+
+Program Start Here
+DataBase:2023-08-30 20:48:21.279868:Connection is OK.
+DataBase:2023-08-30 20:48:21.279868:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:50:16.392753:
+
+Program Start Here
+DataBase:2023-08-30 20:50:16.395743:Connection is OK.
+DataBase:2023-08-30 20:50:16.395743:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:50:42.040954:Cursor for command is OK.
+DataBase:2023-08-30 20:50:42.045933:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:50:52.584591:
+
+Program Start Here
+DataBase:2023-08-30 20:50:52.591571:Connection is OK.
+DataBase:2023-08-30 20:50:52.591571:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:50:53.360231:
+
+Program Start Here
+DataBase:2023-08-30 20:50:53.366214:Connection is OK.
+DataBase:2023-08-30 20:50:53.366214:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:51:43.025959:
+
+Program Start Here
+DataBase:2023-08-30 20:51:43.039918:Connection is OK.
+DataBase:2023-08-30 20:51:43.039918:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:54:03.768910:Cursor for command is OK.
+DataBase:2023-08-30 20:54:03.777883:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:54:20.592365:
+
+Program Start Here
+DataBase:2023-08-30 20:54:20.608322:Connection is OK.
+DataBase:2023-08-30 20:54:20.608322:Complete login for user root at host localhost.
+DataBase:2023-08-30 20:56:41.636225:Cursor for command is OK.
+DataBase:2023-08-30 20:56:41.640177:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-08-30 20:58:10.192070:Program Start Here
+DataBase:2023-08-30 20:58:10.214009:Connection is OK.
+DataBase:2023-08-30 20:58:10.214009:Complete login for user root at host localhost.

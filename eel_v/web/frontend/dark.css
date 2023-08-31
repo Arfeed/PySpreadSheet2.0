@@ -1,0 +1,64 @@
+body {
+
+	background-color: rgb(43, 43, 43);
+
+}
+
+h1 {
+
+	color: white;
+	width: 29vw;
+	height:50px;
+	font: 2vw 'Andale Mono', monospace;
+
+}
+
+.main{
+
+    width: 30%;
+	height: auto;
+
+}
+
+h1, .main {
+
+    border-radius: 8px;
+    background-color: rgb(63, 63, 63);
+
+}
+
+button, input {
+
+    background-color: rgb(63, 63, 63);
+    color: azure;
+    border-radius: 8px;
+    font: 8pt 'Andale Mono', monospace;
+
+}
+
+input {
+
+    width: 98%;
+
+}
+
+button {
+
+    height: 25px;
+
+}
+
+#main_table{
+
+	margin-top: 25px;
+
+}
+
+.theme_switch{
+
+	border-radius: 10px;
+	width: 25px;
+	background-size: cover;
+	background-image: url('images/sun.png');
+
+}

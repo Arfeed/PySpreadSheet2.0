@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href = "table_edit.css" id = 'stylesheet'>
+        <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/table_edit.js"></script>
+        <title>Edit</title>
+
+    </head>
+
+    <body>
+        <button onclick="window.location.href = 'http://localhost:8000/frontend/table_chose.html'" class = "back_button">←</button>
+        <button class="theme_switch" onclick="switch_theme()"></button>
+        <center>
+            <div class = "main">
+
+                <h1>Edit</h1>
+
+                <table id = "button">
+                    <tr>
+                        <td>
+                            <button id="save" class="spec_btn" onclick="save()">Сохранить</button>
+                        </td>
+                        <td>
+                            <button id="Add" class="spec_btn" onclick="add_new()">Добавить строку</button>
+                        </td>
+                        <td>
+                            <button id="Rem" class="spec_btn" onclick="remove_last()">Удалить строку</button>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id = "main" border = 1>
+                </table>
+            
+            </div>
+        </center>
+    </body>
+
+</html>
