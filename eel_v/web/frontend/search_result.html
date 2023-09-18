@@ -5,23 +5,25 @@
     <head>
 
         <meta charset="utf-8">
-        <link rel="stylesheet" type = "text/css" href = "table_instance.css" id = 'stylesheet'>
+        <link rel="stylesheet" type="text/css" href = "search_result.css" id = 'stylesheet'>
         <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
         <script type="text/javascript" src="../eel.js"></script>
-        <script type = "text/javascript" src = "../backend/javascript/table_instance.js"></script>
-        <title>Table Instance</title>
+        <script type="text/javascript" src="../backend/javascript/search_result.js"></script>
+        <title>Search Result</title>
 
     </head>
 
     <body onload = 'onload()'>
+
         <button onclick="window.location.href = 'http://localhost:8000/frontend/table_chose.html'" class = "back_button">←</button>
         <button class="theme_switch" onclick="switch_theme()"></button>
-        <center>
-            <h1>Table Instance</h1>
 
-            <table border = 1>
+        <center>
+            <table id = 'main'>
+
             </table>
         </center>
+        
     </body>
 
 </html>

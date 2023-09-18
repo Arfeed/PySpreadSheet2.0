@@ -1,0 +1,25 @@
+h1 {
+
+	background-color: lightcoral;
+	color: white;
+	font: 2vw 'Andale Mono', monospace;
+
+}
+
+button{
+
+	color: gray;
+
+}
+
+.el_div{
+	
+	background-color: lightcoral;
+
+}
+
+body {
+
+	background-color: lightgray;
+
+}

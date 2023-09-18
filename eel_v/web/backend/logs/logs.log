@@ -226,3 +226,920 @@ DataBase:2023-08-30 20:56:41.640177:Command 'select table_name from information_
 DataBase:2023-08-30 20:58:10.192070:Program Start Here
 DataBase:2023-08-30 20:58:10.214009:Connection is OK.
 DataBase:2023-08-30 20:58:10.214009:Complete login for user root at host localhost.
+DataBase:2023-09-03 11:31:25.760406:Program Start Here
+DataBase:2023-09-03 11:31:26.015158:Connection is OK.
+DataBase:2023-09-03 11:31:26.016155:Complete login for user root at host localhost.
+DataBase:2023-09-03 11:32:28.249155:Program Start Here
+DataBase:2023-09-03 11:32:28.266966:Connection is OK.
+DataBase:2023-09-03 11:32:28.266966:Complete login for user root at host localhost.
+DataBase:2023-09-03 11:32:48.504883:Program Start Here
+DataBase:2023-09-03 11:32:48.523304:Connection is OK.
+DataBase:2023-09-03 11:32:48.523304:Complete login for user root at host localhost.
+DataBase:2023-09-03 11:32:48.915170:Cursor for command is OK.
+DataBase:2023-09-03 11:32:48.925167:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-03 11:35:44.673164:Program Start Here
+DataBase:2023-09-03 11:35:44.691956:Connection is OK.
+DataBase:2023-09-03 11:35:44.691956:Complete login for user root at host localhost.
+DataBase:2023-09-03 11:36:07.025380:Program Start Here
+DataBase:2023-09-03 11:36:07.040341:Connection is OK.
+DataBase:2023-09-03 11:36:07.040341:Complete login for user root at host localhost.
+DataBase:2023-09-03 11:36:07.798553:Cursor for command is OK.
+DataBase:2023-09-03 11:36:07.804653:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:11.577310:Program Start Here
+DataBase:2023-09-13 21:23:11.844067:Connection is OK.
+DataBase:2023-09-13 21:23:11.844067:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:23:12.311323:Cursor for command is OK.
+DataBase:2023-09-13 21:23:12.374172:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:20.553198:Cursor for command is OK.
+DataBase:2023-09-13 21:23:20.564166:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-13 21:23:20.565164:Cursor for command is OK.
+DataBase:2023-09-13 21:23:20.566169:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:20.567159:Cursor for command is OK.
+DataBase:2023-09-13 21:23:20.588102:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:21.334127:Cursor for command is OK.
+DataBase:2023-09-13 21:23:21.347087:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-13 21:23:21.348087:Cursor for command is OK.
+DataBase:2023-09-13 21:23:21.357061:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:27.924313:Cursor for command is OK.
+DataBase:2023-09-13 21:23:27.925310:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:32.480125:Cursor for command is OK.
+DataBase:2023-09-13 21:23:32.482120:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-13 21:23:32.483116:Cursor for command is OK.
+DataBase:2023-09-13 21:23:32.484112:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:32.484112:Cursor for command is OK.
+DataBase:2023-09-13 21:23:32.487106:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:23:32.952893:Cursor for command is OK.
+DataBase:2023-09-13 21:23:32.953890:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-13 21:23:32.954888:Cursor for command is OK.
+DataBase:2023-09-13 21:23:32.957879:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:36:53.087851:Program Start Here
+DataBase:2023-09-13 21:36:53.117816:Connection is OK.
+DataBase:2023-09-13 21:36:53.117816:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:36:53.595569:Cursor for command is OK.
+DataBase:2023-09-13 21:36:53.597563:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:37:16.205439:Cursor for command is OK.
+DataBase:2023-09-13 21:37:16.207433:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:39:26.543658:Program Start Here
+DataBase:2023-09-13 21:39:26.566599:Connection is OK.
+DataBase:2023-09-13 21:39:26.566599:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:39:27.025030:Cursor for command is OK.
+DataBase:2023-09-13 21:39:27.026976:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:39:31.413258:Cursor for command is OK.
+DataBase:2023-09-13 21:39:31.414255:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:39:59.380654:Cursor for command is OK.
+DataBase:2023-09-13 21:39:59.381651:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:40:43.423527:Cursor for command is OK.
+DataBase:2023-09-13 21:40:43.426528:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-13 21:40:43.426528:Cursor for command is OK.
+DataBase:2023-09-13 21:40:43.428548:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:40:43.429522:Cursor for command is OK.
+DataBase:2023-09-13 21:40:43.433500:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:40:43.901477:Cursor for command is OK.
+DataBase:2023-09-13 21:40:43.901477:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-13 21:40:43.901477:Cursor for command is OK.
+DataBase:2023-09-13 21:40:43.904472:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:41:28.881849:Program Start Here
+DataBase:2023-09-13 21:41:28.900360:Connection is OK.
+DataBase:2023-09-13 21:41:28.900360:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:41:29.368073:Cursor for command is OK.
+DataBase:2023-09-13 21:41:29.370066:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:41:59.312520:Program Start Here
+DataBase:2023-09-13 21:41:59.331468:Connection is OK.
+DataBase:2023-09-13 21:41:59.331468:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:41:59.793985:Cursor for command is OK.
+DataBase:2023-09-13 21:41:59.794982:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:42:06.311906:Cursor for command is OK.
+DataBase:2023-09-13 21:42:06.313933:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-13 21:42:06.314899:Cursor for command is OK.
+DataBase:2023-09-13 21:42:06.315897:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:42:06.315897:Cursor for command is OK.
+DataBase:2023-09-13 21:42:06.321880:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:42:07.055088:Cursor for command is OK.
+DataBase:2023-09-13 21:42:07.056086:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-13 21:42:07.056086:Cursor for command is OK.
+DataBase:2023-09-13 21:42:07.058081:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:42:12.423101:Cursor for command is OK.
+DataBase:2023-09-13 21:42:12.424098:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:42:40.399800:Program Start Here
+DataBase:2023-09-13 21:42:40.415761:Connection is OK.
+DataBase:2023-09-13 21:42:40.415761:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:42:40.879451:Cursor for command is OK.
+DataBase:2023-09-13 21:42:40.881444:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:43:27.810624:Cursor for command is OK.
+DataBase:2023-09-13 21:43:27.811620:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:43:53.322862:Cursor for command is OK.
+DataBase:2023-09-13 21:43:53.323872:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:03.849204:Program Start Here
+DataBase:2023-09-13 21:47:03.876172:Connection is OK.
+DataBase:2023-09-13 21:47:03.876172:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:47:04.633267:Cursor for command is OK.
+DataBase:2023-09-13 21:47:04.635262:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:45.584479:Program Start Here
+DataBase:2023-09-13 21:47:45.602383:Connection is OK.
+DataBase:2023-09-13 21:47:45.602383:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:47:46.069704:Cursor for command is OK.
+DataBase:2023-09-13 21:47:46.071699:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:46.776200:Cursor for command is OK.
+DataBase:2023-09-13 21:47:46.778202:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-13 21:47:46.779187:Cursor for command is OK.
+DataBase:2023-09-13 21:47:46.781185:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:46.781185:Cursor for command is OK.
+DataBase:2023-09-13 21:47:46.786170:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:47.236244:Cursor for command is OK.
+DataBase:2023-09-13 21:47:47.236244:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-13 21:47:47.236244:Cursor for command is OK.
+DataBase:2023-09-13 21:47:47.238239:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:49.929474:Cursor for command is OK.
+DataBase:2023-09-13 21:47:49.930424:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:47:57.397118:Cursor for command is OK.
+DataBase:2023-09-13 21:47:57.399113:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:49:38.401012:Program Start Here
+DataBase:2023-09-13 21:49:38.419956:Connection is OK.
+DataBase:2023-09-13 21:49:38.419956:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:49:38.897103:Cursor for command is OK.
+DataBase:2023-09-13 21:49:38.904085:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:50:13.792021:Program Start Here
+DataBase:2023-09-13 21:50:13.806981:Connection is OK.
+DataBase:2023-09-13 21:50:13.806981:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:50:14.273996:Cursor for command is OK.
+DataBase:2023-09-13 21:50:14.274993:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:51:36.423738:Program Start Here
+DataBase:2023-09-13 21:51:36.440692:Connection is OK.
+DataBase:2023-09-13 21:51:36.440692:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:51:36.902728:Cursor for command is OK.
+DataBase:2023-09-13 21:51:36.903716:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 21:54:57.881990:Program Start Here
+DataBase:2023-09-13 21:54:57.900938:Connection is OK.
+DataBase:2023-09-13 21:54:57.900938:Complete login for user root at host localhost.
+DataBase:2023-09-13 21:54:58.398846:Cursor for command is OK.
+DataBase:2023-09-13 21:54:58.400842:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 22:24:47.696979:Program Start Here
+DataBase:2023-09-13 22:24:47.847902:Connection is OK.
+DataBase:2023-09-13 22:24:47.847902:Complete login for user root at host localhost.
+DataBase:2023-09-13 22:24:48.297504:Cursor for command is OK.
+DataBase:2023-09-13 22:24:48.346640:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 22:26:05.975400:Program Start Here
+DataBase:2023-09-13 22:26:05.995350:Connection is OK.
+DataBase:2023-09-13 22:26:05.996344:Complete login for user root at host localhost.
+DataBase:2023-09-13 22:26:06.449973:Cursor for command is OK.
+DataBase:2023-09-13 22:26:06.451781:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-13 22:26:11.207512:Cursor for command is OK.
+DataBase:2023-09-13 22:26:11.219821:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-13 22:26:11.219821:Cursor for command is OK.
+DataBase:2023-09-13 22:26:11.220814:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-13 22:26:11.220814:Cursor for command is OK.
+DataBase:2023-09-13 22:26:11.234607:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 22:26:11.672195:Cursor for command is OK.
+DataBase:2023-09-13 22:26:11.674544:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-13 22:26:11.674544:Cursor for command is OK.
+DataBase:2023-09-13 22:26:11.676631:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-13 22:26:13.723881:Cursor for command is OK.
+DataBase:2023-09-13 22:26:13.725493:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:18.777220:Program Start Here
+DataBase:2023-09-15 21:02:18.880980:Connection is OK.
+DataBase:2023-09-15 21:02:18.880980:Complete login for user root at host localhost.
+DataBase:2023-09-15 21:02:19.601692:Cursor for command is OK.
+DataBase:2023-09-15 21:02:19.623635:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:23.334730:Cursor for command is OK.
+DataBase:2023-09-15 21:02:23.340712:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-15 21:02:23.340712:Cursor for command is OK.
+DataBase:2023-09-15 21:02:23.342708:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:23.342708:Cursor for command is OK.
+DataBase:2023-09-15 21:02:23.352685:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:23.756451:Cursor for command is OK.
+DataBase:2023-09-15 21:02:23.756451:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-15 21:02:23.757447:Cursor for command is OK.
+DataBase:2023-09-15 21:02:23.760440:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:27.736604:Cursor for command is OK.
+DataBase:2023-09-15 21:02:27.737601:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:56.559692:Cursor for command is OK.
+DataBase:2023-09-15 21:02:56.560689:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-15 21:02:56.560689:Cursor for command is OK.
+DataBase:2023-09-15 21:02:56.562684:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:56.562684:Cursor for command is OK.
+DataBase:2023-09-15 21:02:56.567673:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:02:57.296167:Cursor for command is OK.
+DataBase:2023-09-15 21:02:57.297164:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-15 21:02:57.297164:Cursor for command is OK.
+DataBase:2023-09-15 21:02:57.298162:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:08.031586:Cursor for command is OK.
+DataBase:2023-09-15 21:03:08.133368:Command 'drop table test;' completed with is_change = True.
+DataBase:2023-09-15 21:03:08.133368:Cursor for command is OK.
+DataBase:2023-09-15 21:03:08.162301:Command 'create table test(id int primary key auto_increment , name varchar(2) );' completed with is_change = True.
+DataBase:2023-09-15 21:03:08.162301:Cursor for command is OK.
+DataBase:2023-09-15 21:03:08.167287:Command 'insert into test(name) values("wd");' completed with is_change = True.
+DataBase:2023-09-15 21:03:08.167287:Cursor for command is OK.
+DataBase:2023-09-15 21:03:08.169281:Command complete is corruped.Error:
+1406 (22001): Data too long for column 'name' at row 1
+DataBase:2023-09-15 21:03:16.447505:Cursor for command is OK.
+DataBase:2023-09-15 21:03:16.503355:Command 'drop table test;' completed with is_change = True.
+DataBase:2023-09-15 21:03:16.503355:Cursor for command is OK.
+DataBase:2023-09-15 21:03:16.516321:Command 'create table test(id int primary key auto_increment , name varchar(2) );' completed with is_change = True.
+DataBase:2023-09-15 21:03:16.516321:Cursor for command is OK.
+DataBase:2023-09-15 21:03:16.520311:Command 'insert into test(name) values("wd");' completed with is_change = True.
+DataBase:2023-09-15 21:03:16.520311:Cursor for command is OK.
+DataBase:2023-09-15 21:03:16.521308:Command complete is corruped.Error:
+1406 (22001): Data too long for column 'name' at row 1
+DataBase:2023-09-15 21:03:21.559785:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.565769:Command 'drop table test;' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.565769:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.573746:Command 'create table test(id int primary key auto_increment , name varchar(2) );' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.574752:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.576739:Command 'insert into test(name) values("wd");' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.576739:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.578734:Command 'insert into test(name) values("wd");' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.578734:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.579731:Command 'insert into test(name) values("aw");' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.579731:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.580728:Command 'insert into test(name) values("wa");' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.580728:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.581725:Command 'insert into test(name) values("aw");' completed with is_change = True.
+DataBase:2023-09-15 21:03:21.581725:Cursor for command is OK.
+DataBase:2023-09-15 21:03:21.582723:Command 'insert into test(name) values("ad");' completed with is_change = True.
+DataBase:2023-09-15 21:03:24.907366:Cursor for command is OK.
+DataBase:2023-09-15 21:03:24.908360:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:26.206922:Cursor for command is OK.
+DataBase:2023-09-15 21:03:26.208919:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-15 21:03:26.208919:Cursor for command is OK.
+DataBase:2023-09-15 21:03:26.209921:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:26.210913:Cursor for command is OK.
+DataBase:2023-09-15 21:03:26.212907:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:26.619891:Cursor for command is OK.
+DataBase:2023-09-15 21:03:26.620887:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-15 21:03:26.620887:Cursor for command is OK.
+DataBase:2023-09-15 21:03:26.621886:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:30.173584:Cursor for command is OK.
+DataBase:2023-09-15 21:03:30.175582:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:30.847042:Cursor for command is OK.
+DataBase:2023-09-15 21:03:30.850033:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-15 21:03:30.850033:Cursor for command is OK.
+DataBase:2023-09-15 21:03:30.851033:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:30.851033:Cursor for command is OK.
+DataBase:2023-09-15 21:03:30.854025:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:31.252894:Cursor for command is OK.
+DataBase:2023-09-15 21:03:31.253893:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-15 21:03:31.253893:Cursor for command is OK.
+DataBase:2023-09-15 21:03:31.254890:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:38.771755:Cursor for command is OK.
+DataBase:2023-09-15 21:03:38.772754:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:39.888693:Cursor for command is OK.
+DataBase:2023-09-15 21:03:39.889691:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-15 21:03:39.889691:Cursor for command is OK.
+DataBase:2023-09-15 21:03:39.890697:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:39.890697:Cursor for command is OK.
+DataBase:2023-09-15 21:03:39.892681:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:40.288877:Cursor for command is OK.
+DataBase:2023-09-15 21:03:40.289873:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-15 21:03:40.289873:Cursor for command is OK.
+DataBase:2023-09-15 21:03:40.290870:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:03:58.265514:Cursor for command is OK.
+DataBase:2023-09-15 21:03:58.266505:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-15 21:19:33.496224:Cursor for command is OK.
+DataBase:2023-09-15 21:19:33.497222:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:01:12.821364:Program Start Here
+DataBase:2023-09-16 10:01:12.925088:Connection is OK.
+DataBase:2023-09-16 10:01:12.925088:Complete login for user root at host localhost.
+DataBase:2023-09-16 10:01:13.331752:Cursor for command is OK.
+DataBase:2023-09-16 10:01:13.353934:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:01:24.995229:Cursor for command is OK.
+DataBase:2023-09-16 10:01:24.998625:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-16 10:01:24.998625:Cursor for command is OK.
+DataBase:2023-09-16 10:01:24.998625:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 10:01:55.086932:Cursor for command is OK.
+DataBase:2023-09-16 10:01:55.088925:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:03.276078:Cursor for command is OK.
+DataBase:2023-09-16 10:02:03.277077:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-16 10:02:03.277077:Cursor for command is OK.
+DataBase:2023-09-16 10:02:03.278074:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 10:02:12.076156:Program Start Here
+DataBase:2023-09-16 10:02:12.096863:Connection is OK.
+DataBase:2023-09-16 10:02:12.096863:Complete login for user root at host localhost.
+DataBase:2023-09-16 10:02:12.488265:Cursor for command is OK.
+DataBase:2023-09-16 10:02:12.494801:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:19.580451:Cursor for command is OK.
+DataBase:2023-09-16 10:02:19.582448:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-16 10:02:19.582448:Cursor for command is OK.
+DataBase:2023-09-16 10:02:19.582448:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 10:02:22.616569:Cursor for command is OK.
+DataBase:2023-09-16 10:02:22.617565:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:23.283635:Cursor for command is OK.
+DataBase:2023-09-16 10:02:23.292608:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-16 10:02:23.292608:Cursor for command is OK.
+DataBase:2023-09-16 10:02:23.293607:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:23.293607:Cursor for command is OK.
+DataBase:2023-09-16 10:02:23.299272:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:23.672125:Cursor for command is OK.
+DataBase:2023-09-16 10:02:23.673121:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 10:02:23.673121:Cursor for command is OK.
+DataBase:2023-09-16 10:02:23.676837:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:25.214498:Cursor for command is OK.
+DataBase:2023-09-16 10:02:25.215495:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:02:35.979292:Cursor for command is OK.
+DataBase:2023-09-16 10:02:35.979292:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-16 10:02:35.980287:Cursor for command is OK.
+DataBase:2023-09-16 10:02:35.980287:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 10:10:45.870104:Cursor for command is OK.
+DataBase:2023-09-16 10:10:45.872098:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:57:12.908735:Program Start Here
+DataBase:2023-09-16 10:57:12.946120:Connection is OK.
+DataBase:2023-09-16 10:57:12.946120:Complete login for user root at host localhost.
+DataBase:2023-09-16 10:57:13.395800:Cursor for command is OK.
+DataBase:2023-09-16 10:57:13.401811:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 10:57:25.092358:Cursor for command is OK.
+DataBase:2023-09-16 10:57:25.093355:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-16 10:57:25.093355:Cursor for command is OK.
+DataBase:2023-09-16 10:57:25.094352:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 10:57:27.489183:Cursor for command is OK.
+DataBase:2023-09-16 10:57:27.492175:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:37:09.603420:Program Start Here
+DataBase:2023-09-16 13:37:09.679409:Connection is OK.
+DataBase:2023-09-16 13:37:09.679409:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:37:10.140475:Cursor for command is OK.
+DataBase:2023-09-16 13:37:10.154842:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:38:22.317003:Cursor for command is OK.
+DataBase:2023-09-16 13:38:22.318004:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:38:29.934597:Cursor for command is OK.
+DataBase:2023-09-16 13:38:29.934597:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:38:44.243131:Cursor for command is OK.
+DataBase:2023-09-16 13:38:44.245096:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:39:01.519193:Cursor for command is OK.
+DataBase:2023-09-16 13:39:01.520191:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:39:07.892091:Cursor for command is OK.
+DataBase:2023-09-16 13:39:07.894085:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:40:20.163148:Cursor for command is OK.
+DataBase:2023-09-16 13:40:20.165340:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:41:20.739524:Cursor for command is OK.
+DataBase:2023-09-16 13:41:20.739524:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:41:33.915200:Program Start Here
+DataBase:2023-09-16 13:41:33.934434:Connection is OK.
+DataBase:2023-09-16 13:41:33.934434:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:41:34.367377:Cursor for command is OK.
+DataBase:2023-09-16 13:41:34.371238:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:51:46.651832:Program Start Here
+DataBase:2023-09-16 13:51:46.678752:Connection is OK.
+DataBase:2023-09-16 13:51:46.678752:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:51:47.120030:Cursor for command is OK.
+DataBase:2023-09-16 13:51:47.125390:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:57:56.267259:Program Start Here
+DataBase:2023-09-16 13:57:56.287209:Connection is OK.
+DataBase:2023-09-16 13:57:56.287209:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:57:56.733020:Cursor for command is OK.
+DataBase:2023-09-16 13:57:56.735014:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:58:22.876654:Program Start Here
+DataBase:2023-09-16 13:58:22.893005:Connection is OK.
+DataBase:2023-09-16 13:58:22.893005:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:58:23.330776:Cursor for command is OK.
+DataBase:2023-09-16 13:58:23.332770:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:58:23.890680:Cursor for command is OK.
+DataBase:2023-09-16 13:58:23.891644:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:58:43.283083:Program Start Here
+DataBase:2023-09-16 13:58:43.300090:Connection is OK.
+DataBase:2023-09-16 13:58:43.300090:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:58:43.746901:Cursor for command is OK.
+DataBase:2023-09-16 13:58:43.749869:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:58:45.636210:Cursor for command is OK.
+DataBase:2023-09-16 13:58:45.637207:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:58:45.637207:Cursor for command is OK.
+DataBase:2023-09-16 13:58:45.641200:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'test',)'' at line 1
+DataBase:2023-09-16 13:59:49.507643:Program Start Here
+DataBase:2023-09-16 13:59:49.525595:Connection is OK.
+DataBase:2023-09-16 13:59:49.525595:Complete login for user root at host localhost.
+DataBase:2023-09-16 13:59:49.976072:Cursor for command is OK.
+DataBase:2023-09-16 13:59:49.985048:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:59:50.564036:Cursor for command is OK.
+DataBase:2023-09-16 13:59:50.565075:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 13:59:50.565075:Cursor for command is OK.
+DataBase:2023-09-16 13:59:50.568027:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:05:08.587252:Program Start Here
+DataBase:2023-09-16 14:05:08.604197:Connection is OK.
+DataBase:2023-09-16 14:05:08.604197:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:05:09.044040:Cursor for command is OK.
+DataBase:2023-09-16 14:05:09.046025:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:05:09.771048:Cursor for command is OK.
+DataBase:2023-09-16 14:05:09.773005:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:05:09.773005:Cursor for command is OK.
+DataBase:2023-09-16 14:05:09.774002:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:05:13.648129:Cursor for command is OK.
+DataBase:2023-09-16 14:05:13.648978:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:05:19.306910:Cursor for command is OK.
+DataBase:2023-09-16 14:05:19.308900:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:05:19.308900:Cursor for command is OK.
+DataBase:2023-09-16 14:05:19.308900:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:05:22.505182:Cursor for command is OK.
+DataBase:2023-09-16 14:05:22.506270:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:06:01.579608:Cursor for command is OK.
+DataBase:2023-09-16 14:06:01.580606:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:06:01.581602:Cursor for command is OK.
+DataBase:2023-09-16 14:06:01.581602:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:06:06.534275:Cursor for command is OK.
+DataBase:2023-09-16 14:06:06.534275:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:06:08.914889:Cursor for command is OK.
+DataBase:2023-09-16 14:06:08.915885:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:06:08.915885:Cursor for command is OK.
+DataBase:2023-09-16 14:06:08.916886:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:06:50.874649:Program Start Here
+DataBase:2023-09-16 14:06:50.892857:Connection is OK.
+DataBase:2023-09-16 14:06:50.892857:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:06:51.343925:Cursor for command is OK.
+DataBase:2023-09-16 14:06:51.346917:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:06:55.123410:Cursor for command is OK.
+DataBase:2023-09-16 14:06:55.125351:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:06:55.125351:Cursor for command is OK.
+DataBase:2023-09-16 14:06:55.126348:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:08:13.955023:Program Start Here
+DataBase:2023-09-16 14:08:13.975512:Connection is OK.
+DataBase:2023-09-16 14:08:13.975512:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:08:14.427197:Cursor for command is OK.
+DataBase:2023-09-16 14:08:14.430348:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:08:17.908116:Cursor for command is OK.
+DataBase:2023-09-16 14:08:17.909111:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:08:17.909111:Cursor for command is OK.
+DataBase:2023-09-16 14:08:17.910110:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:08:23.675945:Cursor for command is OK.
+DataBase:2023-09-16 14:08:23.676941:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:08:24.475049:Cursor for command is OK.
+DataBase:2023-09-16 14:08:24.482980:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-16 14:08:24.482980:Cursor for command is OK.
+DataBase:2023-09-16 14:08:24.482980:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:08:24.482980:Cursor for command is OK.
+DataBase:2023-09-16 14:08:24.490958:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:08:24.925338:Cursor for command is OK.
+DataBase:2023-09-16 14:08:24.926333:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:08:24.926333:Cursor for command is OK.
+DataBase:2023-09-16 14:08:24.927697:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:08:27.042403:Cursor for command is OK.
+DataBase:2023-09-16 14:08:27.042403:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:18:34.242969:Program Start Here
+DataBase:2023-09-16 14:18:34.261820:Connection is OK.
+DataBase:2023-09-16 14:18:34.261820:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:18:34.699084:Cursor for command is OK.
+DataBase:2023-09-16 14:18:34.706086:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:19:05.570020:Cursor for command is OK.
+DataBase:2023-09-16 14:19:05.621746:Command 'create table test1(id int  auto_increment primary key, str varchar(2) );' completed with is_change = True.
+DataBase:2023-09-16 14:19:07.022290:Cursor for command is OK.
+DataBase:2023-09-16 14:19:07.025259:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:19:22.003921:Cursor for command is OK.
+DataBase:2023-09-16 14:19:22.016540:Command 'create table test2(str text );' completed with is_change = True.
+DataBase:2023-09-16 14:19:23.481477:Cursor for command is OK.
+DataBase:2023-09-16 14:19:23.483465:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:19:24.482879:Cursor for command is OK.
+DataBase:2023-09-16 14:19:24.484874:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test2';' completed with is_change = False.
+DataBase:2023-09-16 14:19:24.484874:Cursor for command is OK.
+DataBase:2023-09-16 14:19:24.486866:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test2";' completed with is_change = False.
+DataBase:2023-09-16 14:19:24.486866:Cursor for command is OK.
+DataBase:2023-09-16 14:19:24.490857:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test2";' completed with is_change = False.
+DataBase:2023-09-16 14:19:24.934657:Cursor for command is OK.
+DataBase:2023-09-16 14:19:24.936651:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 14:19:24.936651:Cursor for command is OK.
+DataBase:2023-09-16 14:19:24.939675:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test2";' completed with is_change = False.
+DataBase:2023-09-16 14:19:35.210975:Cursor for command is OK.
+DataBase:2023-09-16 14:19:35.218765:Command 'drop table test2;' completed with is_change = True.
+DataBase:2023-09-16 14:19:35.218765:Cursor for command is OK.
+DataBase:2023-09-16 14:19:35.226065:Command 'create table test2(str text );' completed with is_change = True.
+DataBase:2023-09-16 14:19:35.226065:Cursor for command is OK.
+DataBase:2023-09-16 14:19:35.228079:Command 'insert into test2(str) values("ad");' completed with is_change = True.
+DataBase:2023-09-16 14:19:35.228079:Cursor for command is OK.
+DataBase:2023-09-16 14:19:35.229371:Command 'insert into test2(str) values("dw");' completed with is_change = True.
+DataBase:2023-09-16 14:19:35.229371:Cursor for command is OK.
+DataBase:2023-09-16 14:19:35.230371:Command 'insert into test2(str) values("wd");' completed with is_change = True.
+DataBase:2023-09-16 14:19:35.230371:Cursor for command is OK.
+DataBase:2023-09-16 14:19:35.231368:Command 'insert into test2(str) values("aww");' completed with is_change = True.
+DataBase:2023-09-16 14:19:37.451932:Cursor for command is OK.
+DataBase:2023-09-16 14:19:37.452929:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:19:38.330525:Cursor for command is OK.
+DataBase:2023-09-16 14:19:38.331520:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:19:38.331520:Cursor for command is OK.
+DataBase:2023-09-16 14:19:38.332518:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:19:38.332518:Cursor for command is OK.
+DataBase:2023-09-16 14:19:38.334514:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:19:38.792141:Cursor for command is OK.
+DataBase:2023-09-16 14:19:38.793931:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:19:38.793931:Cursor for command is OK.
+DataBase:2023-09-16 14:19:38.794961:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:21:03.923580:Program Start Here
+DataBase:2023-09-16 14:21:03.940532:Connection is OK.
+DataBase:2023-09-16 14:21:03.940532:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:21:04.396511:Cursor for command is OK.
+DataBase:2023-09-16 14:21:04.398778:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:21:06.018646:Cursor for command is OK.
+DataBase:2023-09-16 14:21:06.021625:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test2';' completed with is_change = False.
+DataBase:2023-09-16 14:21:06.021625:Cursor for command is OK.
+DataBase:2023-09-16 14:21:06.022622:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test2";' completed with is_change = False.
+DataBase:2023-09-16 14:21:06.022622:Cursor for command is OK.
+DataBase:2023-09-16 14:21:06.026611:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test2";' completed with is_change = False.
+DataBase:2023-09-16 14:21:06.468613:Cursor for command is OK.
+DataBase:2023-09-16 14:21:06.469609:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 14:21:06.469609:Cursor for command is OK.
+DataBase:2023-09-16 14:21:06.473231:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test2";' completed with is_change = False.
+DataBase:2023-09-16 14:21:08.965568:Cursor for command is OK.
+DataBase:2023-09-16 14:21:08.966563:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:21:09.842720:Cursor for command is OK.
+DataBase:2023-09-16 14:21:09.844672:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:21:09.844672:Cursor for command is OK.
+DataBase:2023-09-16 14:21:09.845668:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:21:09.845668:Cursor for command is OK.
+DataBase:2023-09-16 14:21:09.847694:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:21:10.310550:Cursor for command is OK.
+DataBase:2023-09-16 14:21:10.311581:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:21:10.311581:Cursor for command is OK.
+DataBase:2023-09-16 14:21:10.312581:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:21:46.554825:Program Start Here
+DataBase:2023-09-16 14:21:46.570736:Connection is OK.
+DataBase:2023-09-16 14:21:46.570736:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:21:47.029671:Cursor for command is OK.
+DataBase:2023-09-16 14:21:47.032663:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:21:48.114953:Cursor for command is OK.
+DataBase:2023-09-16 14:21:48.118942:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:21:48.118942:Cursor for command is OK.
+DataBase:2023-09-16 14:21:48.119939:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:21:48.119939:Cursor for command is OK.
+DataBase:2023-09-16 14:21:48.122932:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:21:48.562018:Cursor for command is OK.
+DataBase:2023-09-16 14:21:48.562018:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:21:48.562018:Cursor for command is OK.
+DataBase:2023-09-16 14:21:48.563901:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:26:30.306927:Program Start Here
+DataBase:2023-09-16 14:26:30.325630:Connection is OK.
+DataBase:2023-09-16 14:26:30.325630:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:26:30.777437:Cursor for command is OK.
+DataBase:2023-09-16 14:26:30.779061:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:26:34.714308:Cursor for command is OK.
+DataBase:2023-09-16 14:26:34.716303:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:26:34.716303:Cursor for command is OK.
+DataBase:2023-09-16 14:26:34.717301:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:26:34.718298:Cursor for command is OK.
+DataBase:2023-09-16 14:26:34.720293:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:26:35.160841:Cursor for command is OK.
+DataBase:2023-09-16 14:26:35.160841:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:26:35.160841:Cursor for command is OK.
+DataBase:2023-09-16 14:26:35.162956:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:27:27.522521:Program Start Here
+DataBase:2023-09-16 14:27:27.538907:Connection is OK.
+DataBase:2023-09-16 14:27:27.538907:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:27:27.984116:Cursor for command is OK.
+DataBase:2023-09-16 14:27:27.985145:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:27:29.131829:Cursor for command is OK.
+DataBase:2023-09-16 14:27:29.133823:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:27:29.133823:Cursor for command is OK.
+DataBase:2023-09-16 14:27:29.133823:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:27:29.133823:Cursor for command is OK.
+DataBase:2023-09-16 14:27:29.135819:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:27:29.582224:Cursor for command is OK.
+DataBase:2023-09-16 14:27:29.582224:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:27:29.582224:Cursor for command is OK.
+DataBase:2023-09-16 14:27:29.584218:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:28:38.122461:Program Start Here
+DataBase:2023-09-16 14:28:38.139966:Connection is OK.
+DataBase:2023-09-16 14:28:38.139966:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:28:38.592309:Cursor for command is OK.
+DataBase:2023-09-16 14:28:38.593307:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:28:40.411087:Cursor for command is OK.
+DataBase:2023-09-16 14:28:40.413081:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:28:40.413081:Cursor for command is OK.
+DataBase:2023-09-16 14:28:40.414078:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:28:40.414078:Cursor for command is OK.
+DataBase:2023-09-16 14:28:40.416072:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:28:40.861930:Cursor for command is OK.
+DataBase:2023-09-16 14:28:40.862927:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:28:40.862927:Cursor for command is OK.
+DataBase:2023-09-16 14:28:40.863924:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:30:30.387864:Program Start Here
+DataBase:2023-09-16 14:30:30.402290:Connection is OK.
+DataBase:2023-09-16 14:30:30.402290:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:30:30.852898:Cursor for command is OK.
+DataBase:2023-09-16 14:30:30.853895:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:30:32.994656:Cursor for command is OK.
+DataBase:2023-09-16 14:30:32.997615:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:30:32.998613:Cursor for command is OK.
+DataBase:2023-09-16 14:30:32.998613:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:30:32.999611:Cursor for command is OK.
+DataBase:2023-09-16 14:30:33.001605:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:30:33.437793:Cursor for command is OK.
+DataBase:2023-09-16 14:30:33.438450:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:30:33.438537:Cursor for command is OK.
+DataBase:2023-09-16 14:30:33.439537:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:30:40.994472:Cursor for command is OK.
+DataBase:2023-09-16 14:30:41.001517:Command 'drop table test1;' completed with is_change = True.
+DataBase:2023-09-16 14:30:41.002515:Cursor for command is OK.
+DataBase:2023-09-16 14:30:41.010493:Command 'create table test1(id int primary key auto_increment , str varchar(2) );' completed with is_change = True.
+DataBase:2023-09-16 14:30:41.010493:Cursor for command is OK.
+DataBase:2023-09-16 14:30:41.010493:Command complete is corruped.Error:
+1406 (22001): Data too long for column 'str' at row 1
+DataBase:2023-09-16 14:30:49.530516:Cursor for command is OK.
+DataBase:2023-09-16 14:30:49.536835:Command 'drop table test1;' completed with is_change = True.
+DataBase:2023-09-16 14:30:49.536835:Cursor for command is OK.
+DataBase:2023-09-16 14:30:49.546776:Command 'create table test1(id int primary key auto_increment , str varchar(2) );' completed with is_change = True.
+DataBase:2023-09-16 14:30:49.547774:Cursor for command is OK.
+DataBase:2023-09-16 14:30:49.548771:Command 'insert into test1(str) values("da");' completed with is_change = True.
+DataBase:2023-09-16 14:30:49.548771:Cursor for command is OK.
+DataBase:2023-09-16 14:30:49.550978:Command 'insert into test1(str) values("wd");' completed with is_change = True.
+DataBase:2023-09-16 14:30:52.986989:Cursor for command is OK.
+DataBase:2023-09-16 14:30:52.987987:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:30:55.403038:Cursor for command is OK.
+DataBase:2023-09-16 14:30:55.404036:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:30:55.404036:Cursor for command is OK.
+DataBase:2023-09-16 14:30:55.405031:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:30:55.405031:Cursor for command is OK.
+DataBase:2023-09-16 14:30:55.405031:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:30:55.405031:Cursor for command is OK.
+DataBase:2023-09-16 14:30:55.406029:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 14:31:25.330984:Program Start Here
+DataBase:2023-09-16 14:31:25.348935:Connection is OK.
+DataBase:2023-09-16 14:31:25.348935:Complete login for user root at host localhost.
+DataBase:2023-09-16 14:31:25.805035:Cursor for command is OK.
+DataBase:2023-09-16 14:31:25.806058:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:31:27.554852:Cursor for command is OK.
+DataBase:2023-09-16 14:31:27.556882:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 14:31:27.556882:Cursor for command is OK.
+DataBase:2023-09-16 14:31:27.558843:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:31:27.558843:Cursor for command is OK.
+DataBase:2023-09-16 14:31:27.562833:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:31:28.007751:Cursor for command is OK.
+DataBase:2023-09-16 14:31:28.007751:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:31:28.007751:Cursor for command is OK.
+DataBase:2023-09-16 14:31:28.009746:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 14:31:30.106292:Cursor for command is OK.
+DataBase:2023-09-16 14:31:30.114249:Command 'drop table test1;' completed with is_change = True.
+DataBase:2023-09-16 14:31:30.114249:Cursor for command is OK.
+DataBase:2023-09-16 14:31:30.122241:Command 'create table test1(id int primary key auto_increment , str varchar(2) );' completed with is_change = True.
+DataBase:2023-09-16 14:31:30.122241:Cursor for command is OK.
+DataBase:2023-09-16 14:31:30.124237:Command 'insert into test1(str) values("da");' completed with is_change = True.
+DataBase:2023-09-16 14:31:30.124237:Cursor for command is OK.
+DataBase:2023-09-16 14:31:30.126234:Command 'insert into test1(str) values("w");' completed with is_change = True.
+DataBase:2023-09-16 14:31:32.451087:Cursor for command is OK.
+DataBase:2023-09-16 14:31:32.452084:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:31:34.187348:Cursor for command is OK.
+DataBase:2023-09-16 14:31:34.188348:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 14:31:34.189343:Cursor for command is OK.
+DataBase:2023-09-16 14:31:34.189343:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 14:31:34.189343:Cursor for command is OK.
+DataBase:2023-09-16 14:31:34.190340:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 14:31:34.190340:Cursor for command is OK.
+DataBase:2023-09-16 14:31:34.190340:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 14:31:44.328400:Cursor for command is OK.
+DataBase:2023-09-16 14:31:44.328611:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 15:28:42.498445:Program Start Here
+DataBase:2023-09-16 15:28:42.525967:Connection is OK.
+DataBase:2023-09-16 15:28:42.525967:Complete login for user root at host localhost.
+DataBase:2023-09-16 15:28:42.970347:Cursor for command is OK.
+DataBase:2023-09-16 15:28:42.974335:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 15:28:45.234530:Cursor for command is OK.
+DataBase:2023-09-16 15:28:45.236523:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 15:28:45.236523:Cursor for command is OK.
+DataBase:2023-09-16 15:28:45.237521:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 15:28:45.237521:Cursor for command is OK.
+DataBase:2023-09-16 15:28:45.238553:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 15:28:45.238553:Cursor for command is OK.
+DataBase:2023-09-16 15:28:45.239516:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:07:40.123841:Program Start Here
+DataBase:2023-09-16 16:07:40.288879:Connection is OK.
+DataBase:2023-09-16 16:07:40.288879:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:07:40.640082:Cursor for command is OK.
+DataBase:2023-09-16 16:07:40.678313:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:07:46.092289:Cursor for command is OK.
+DataBase:2023-09-16 16:07:46.093287:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:07:46.093287:Cursor for command is OK.
+DataBase:2023-09-16 16:07:46.104263:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:07:46.104263:Cursor for command is OK.
+DataBase:2023-09-16 16:07:46.105260:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:07:46.105260:Cursor for command is OK.
+DataBase:2023-09-16 16:07:46.106252:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:12:51.083691:Cursor for command is OK.
+DataBase:2023-09-16 16:12:51.085238:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:18:40.979893:Program Start Here
+DataBase:2023-09-16 16:18:40.994850:Connection is OK.
+DataBase:2023-09-16 16:18:40.994850:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:18:41.392054:Cursor for command is OK.
+DataBase:2023-09-16 16:18:41.394047:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:18:50.539985:Cursor for command is OK.
+DataBase:2023-09-16 16:18:50.540983:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:18:50.541981:Cursor for command is OK.
+DataBase:2023-09-16 16:18:50.541981:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:18:50.541981:Cursor for command is OK.
+DataBase:2023-09-16 16:18:50.542988:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:18:50.542988:Cursor for command is OK.
+DataBase:2023-09-16 16:18:50.543975:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:19:20.160835:Cursor for command is OK.
+DataBase:2023-09-16 16:19:20.162828:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:26:22.211625:Program Start Here
+DataBase:2023-09-16 16:26:22.229411:Connection is OK.
+DataBase:2023-09-16 16:26:22.229411:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:26:22.628991:Cursor for command is OK.
+DataBase:2023-09-16 16:26:22.630979:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:33:23.978533:Program Start Here
+DataBase:2023-09-16 16:33:23.995487:Connection is OK.
+DataBase:2023-09-16 16:33:23.995487:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:33:24.386893:Cursor for command is OK.
+DataBase:2023-09-16 16:33:24.388931:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:33:33.491589:Cursor for command is OK.
+DataBase:2023-09-16 16:33:33.492586:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bieleberda' at line 1
+DataBase:2023-09-16 16:34:24.195416:Program Start Here
+DataBase:2023-09-16 16:34:24.211959:Connection is OK.
+DataBase:2023-09-16 16:34:24.211959:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:34:24.596786:Cursor for command is OK.
+DataBase:2023-09-16 16:34:24.597784:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:34:28.435309:Cursor for command is OK.
+DataBase:2023-09-16 16:34:28.436312:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ww' at line 1
+DataBase:2023-09-16 16:35:57.023945:Cursor for command is OK.
+DataBase:2023-09-16 16:35:57.023945:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:36:01.011525:Cursor for command is OK.
+DataBase:2023-09-16 16:36:01.011525:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wwa' at line 1
+DataBase:2023-09-16 16:37:10.790264:Cursor for command is OK.
+DataBase:2023-09-16 16:37:10.791263:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:37:12.371397:Cursor for command is OK.
+DataBase:2023-09-16 16:37:12.372399:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wwa' at line 1
+DataBase:2023-09-16 16:38:08.477843:Cursor for command is OK.
+DataBase:2023-09-16 16:38:08.478840:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:38:10.779594:Cursor for command is OK.
+DataBase:2023-09-16 16:38:10.779594:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wwa' at line 1
+DataBase:2023-09-16 16:40:48.947478:Program Start Here
+DataBase:2023-09-16 16:40:48.964430:Connection is OK.
+DataBase:2023-09-16 16:40:48.964430:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:40:49.361088:Cursor for command is OK.
+DataBase:2023-09-16 16:40:49.362084:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:40:51.610397:Cursor for command is OK.
+DataBase:2023-09-16 16:40:51.611407:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wad' at line 1
+DataBase:2023-09-16 16:40:52.908604:Cursor for command is OK.
+DataBase:2023-09-16 16:40:52.909600:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:43:13.611233:Program Start Here
+DataBase:2023-09-16 16:43:13.627187:Connection is OK.
+DataBase:2023-09-16 16:43:13.627187:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:43:14.019654:Cursor for command is OK.
+DataBase:2023-09-16 16:43:14.020653:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:43:15.891352:Cursor for command is OK.
+DataBase:2023-09-16 16:43:15.891352:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ww' at line 1
+DataBase:2023-09-16 16:43:17.316161:Cursor for command is OK.
+DataBase:2023-09-16 16:43:17.318155:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:43:20.338669:Cursor for command is OK.
+DataBase:2023-09-16 16:43:20.339669:Command complete is corruped.Error:
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ww' at line 1
+DataBase:2023-09-16 16:43:21.275663:Cursor for command is OK.
+DataBase:2023-09-16 16:43:21.276660:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:45:04.307313:Cursor for command is OK.
+DataBase:2023-09-16 16:45:04.309308:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:45:04.309308:Cursor for command is OK.
+DataBase:2023-09-16 16:45:04.310306:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:45:04.310306:Cursor for command is OK.
+DataBase:2023-09-16 16:45:04.310306:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:45:04.310306:Cursor for command is OK.
+DataBase:2023-09-16 16:45:04.311527:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:46:05.611318:Program Start Here
+DataBase:2023-09-16 16:46:05.634257:Connection is OK.
+DataBase:2023-09-16 16:46:05.634257:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:46:06.033240:Cursor for command is OK.
+DataBase:2023-09-16 16:46:06.036221:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:46:10.483156:Cursor for command is OK.
+DataBase:2023-09-16 16:46:10.484155:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:46:10.484155:Cursor for command is OK.
+DataBase:2023-09-16 16:46:10.485150:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:46:10.485150:Cursor for command is OK.
+DataBase:2023-09-16 16:46:10.486150:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:46:10.486150:Cursor for command is OK.
+DataBase:2023-09-16 16:46:10.486150:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:46:42.188018:Program Start Here
+DataBase:2023-09-16 16:46:42.204002:Connection is OK.
+DataBase:2023-09-16 16:46:42.204002:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:46:42.593088:Cursor for command is OK.
+DataBase:2023-09-16 16:46:42.594087:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:46:44.611401:Cursor for command is OK.
+DataBase:2023-09-16 16:46:44.612398:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:46:44.613407:Cursor for command is OK.
+DataBase:2023-09-16 16:46:44.613407:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:46:44.613407:Cursor for command is OK.
+DataBase:2023-09-16 16:46:44.614401:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:46:44.614401:Cursor for command is OK.
+DataBase:2023-09-16 16:46:44.614401:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:47:19.867200:Program Start Here
+DataBase:2023-09-16 16:47:19.882166:Connection is OK.
+DataBase:2023-09-16 16:47:19.882166:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:47:20.263596:Cursor for command is OK.
+DataBase:2023-09-16 16:47:20.266589:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:47:23.771024:Cursor for command is OK.
+DataBase:2023-09-16 16:47:23.773021:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:47:23.773021:Cursor for command is OK.
+DataBase:2023-09-16 16:47:23.774018:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:47:23.774018:Cursor for command is OK.
+DataBase:2023-09-16 16:47:23.774018:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:47:23.774018:Cursor for command is OK.
+DataBase:2023-09-16 16:47:23.775016:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:47:49.115140:Program Start Here
+DataBase:2023-09-16 16:47:49.130097:Connection is OK.
+DataBase:2023-09-16 16:47:49.130097:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:47:49.523359:Cursor for command is OK.
+DataBase:2023-09-16 16:47:49.524355:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:47:51.994952:Cursor for command is OK.
+DataBase:2023-09-16 16:47:51.996985:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:47:51.996985:Cursor for command is OK.
+DataBase:2023-09-16 16:47:51.997986:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:47:51.997986:Cursor for command is OK.
+DataBase:2023-09-16 16:47:51.998941:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:47:51.998941:Cursor for command is OK.
+DataBase:2023-09-16 16:47:51.999938:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:49:17.707087:Program Start Here
+DataBase:2023-09-16 16:49:17.723043:Connection is OK.
+DataBase:2023-09-16 16:49:17.723043:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:49:18.114495:Cursor for command is OK.
+DataBase:2023-09-16 16:49:18.115493:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:49:19.835384:Cursor for command is OK.
+DataBase:2023-09-16 16:49:19.836381:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:49:19.836381:Cursor for command is OK.
+DataBase:2023-09-16 16:49:19.837390:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:49:19.837390:Cursor for command is OK.
+DataBase:2023-09-16 16:49:19.837390:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:49:19.838375:Cursor for command is OK.
+DataBase:2023-09-16 16:49:19.838375:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 16:51:36.906487:Program Start Here
+DataBase:2023-09-16 16:51:36.923657:Connection is OK.
+DataBase:2023-09-16 16:51:36.923657:Complete login for user root at host localhost.
+DataBase:2023-09-16 16:51:37.306127:Cursor for command is OK.
+DataBase:2023-09-16 16:51:37.308154:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:51:39.307051:Cursor for command is OK.
+DataBase:2023-09-16 16:51:39.309092:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 16:51:39.309092:Cursor for command is OK.
+DataBase:2023-09-16 16:51:39.310041:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 16:51:39.310041:Cursor for command is OK.
+DataBase:2023-09-16 16:51:39.310041:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 16:51:39.310041:Cursor for command is OK.
+DataBase:2023-09-16 16:51:39.311039:Command 'select * from test2;' completed with is_change = False.
+DataBase:2023-09-16 17:05:08.914982:Program Start Here
+DataBase:2023-09-16 17:05:08.931289:Connection is OK.
+DataBase:2023-09-16 17:05:08.931289:Complete login for user root at host localhost.
+DataBase:2023-09-16 17:05:09.330527:Cursor for command is OK.
+DataBase:2023-09-16 17:05:09.331525:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:05:10.875247:Cursor for command is OK.
+DataBase:2023-09-16 17:05:10.887213:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test1';' completed with is_change = False.
+DataBase:2023-09-16 17:05:10.887213:Cursor for command is OK.
+DataBase:2023-09-16 17:05:10.888210:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test1";' completed with is_change = False.
+DataBase:2023-09-16 17:05:10.888210:Cursor for command is OK.
+DataBase:2023-09-16 17:05:10.904182:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 17:05:11.295989:Cursor for command is OK.
+DataBase:2023-09-16 17:05:11.297014:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 17:05:11.297014:Cursor for command is OK.
+DataBase:2023-09-16 17:05:11.304622:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 17:05:15.234638:Cursor for command is OK.
+DataBase:2023-09-16 17:05:15.235660:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:05:18.150748:Cursor for command is OK.
+DataBase:2023-09-16 17:05:18.150748:Command 'select * from test1;' completed with is_change = False.
+DataBase:2023-09-16 17:05:18.151711:Cursor for command is OK.
+DataBase:2023-09-16 17:05:18.152709:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test1";' completed with is_change = False.
+DataBase:2023-09-16 17:05:18.958028:Cursor for command is OK.
+DataBase:2023-09-16 17:05:18.959054:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:08.618779:Program Start Here
+DataBase:2023-09-16 17:11:08.635805:Connection is OK.
+DataBase:2023-09-16 17:11:08.636802:Complete login for user root at host localhost.
+DataBase:2023-09-16 17:11:09.031037:Cursor for command is OK.
+DataBase:2023-09-16 17:11:09.033351:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:10.210599:Cursor for command is OK.
+DataBase:2023-09-16 17:11:10.212595:Command 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'test';' completed with is_change = False.
+DataBase:2023-09-16 17:11:10.212595:Cursor for command is OK.
+DataBase:2023-09-16 17:11:10.213598:Command 'SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:10.213598:Cursor for command is OK.
+DataBase:2023-09-16 17:11:10.216583:Command 'SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:10.604852:Cursor for command is OK.
+DataBase:2023-09-16 17:11:10.605851:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:11:10.606848:Cursor for command is OK.
+DataBase:2023-09-16 17:11:10.608247:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:32.432929:Cursor for command is OK.
+DataBase:2023-09-16 17:11:32.432929:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:11:32.432929:Cursor for command is OK.
+DataBase:2023-09-16 17:11:32.433927:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:39.798147:Cursor for command is OK.
+DataBase:2023-09-16 17:11:39.798147:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:11:39.798797:Cursor for command is OK.
+DataBase:2023-09-16 17:11:39.799794:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:43.923855:Cursor for command is OK.
+DataBase:2023-09-16 17:11:43.923855:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:11:43.923855:Cursor for command is OK.
+DataBase:2023-09-16 17:11:43.924852:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:11:58.076398:Cursor for command is OK.
+DataBase:2023-09-16 17:11:58.076398:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:11:58.076398:Cursor for command is OK.
+DataBase:2023-09-16 17:11:58.077398:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:13:07.052735:Cursor for command is OK.
+DataBase:2023-09-16 17:13:07.052735:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:13:07.052735:Cursor for command is OK.
+DataBase:2023-09-16 17:13:07.053979:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:13:21.985081:Cursor for command is OK.
+DataBase:2023-09-16 17:13:21.985081:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:13:21.986076:Cursor for command is OK.
+DataBase:2023-09-16 17:13:21.986076:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:13:31.260705:Cursor for command is OK.
+DataBase:2023-09-16 17:13:31.261702:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:13:31.261702:Cursor for command is OK.
+DataBase:2023-09-16 17:13:31.262721:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:13:34.901728:Cursor for command is OK.
+DataBase:2023-09-16 17:13:34.902725:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:13:36.752323:Cursor for command is OK.
+DataBase:2023-09-16 17:13:36.753309:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-16 17:13:36.753309:Cursor for command is OK.
+DataBase:2023-09-16 17:13:36.754356:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
+DataBase:2023-09-16 17:13:37.562062:Cursor for command is OK.
+DataBase:2023-09-16 17:13:37.563085:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.

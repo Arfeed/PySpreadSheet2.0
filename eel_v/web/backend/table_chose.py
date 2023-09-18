@@ -1,24 +1,32 @@
 import eel
-import dill
+from os import getcwd
 
-from web.backend.local.ini_parser import config
 from web.backend.table_edit import Editor
 from web.backend.local.dbOperations import DataBase
 from web.backend.local.execute_command import Execute
+from web.backend.local.ini_parser import config
 from web.backend.table_create import TableCreate
+from web.backend.search import Search
 
 class TableChose:
 
     #инициализация
     def __init__(fles, db : DataBase):
-        if config.get('General', 'dark_theme') == 'True':
-            eel.table_chose_switch()()
         TableChose.db = db
-    
+
     @eel.expose
-    def dt_table_chose(val):
-        print(val)
-        config.set('General', 'dark_theme', str(val))
+    def process_string(text:str):
+        return text.strip()[-5:-1] == ' Tru'
+
+    @eel.expose
+    def set_val(value):
+        config.set('General', 'dark_theme', str(value))
+        with open('./web/backend/user/settings.ini', 'w') as conf_file:
+            config.write(conf_file)
+
+    @eel.expose
+    def search(target):
+        Search(target, TableChose.db)
 
     @eel.expose
     def load_tables():
@@ -34,9 +42,9 @@ class TableChose:
     
     @eel.expose
     def make_command(command):
-        Execute(TableChose.db).handle(command)
+        return Execute(TableChose.db).handle(command)
     
     @eel.expose
-    def to_create():
+    def create():
         TableCreate(TableChose.db)
     

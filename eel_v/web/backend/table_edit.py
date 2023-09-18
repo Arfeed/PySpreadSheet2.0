@@ -11,9 +11,8 @@ class Editor:#класс интерфейса
         Editor.handler = Handler(Editor.db, Editor.table)
     
     @eel.expose
-    def set_table():
-        print(Editor.handler.cols_data)
-        eel.show_t(Editor.handler.get(), Editor.handler.cols_data, Editor.db.make_command(f'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "{Editor.table}";', False))
+    def get_table_data():
+        return Editor.handler.get(), Editor.handler.cols_data, Editor.db.make_command(f'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "{Editor.table}";', False)
     
     @eel.expose
     def save(table_d):
@@ -30,9 +29,5 @@ class Editor:#класс интерфейса
         
         
     @eel.expose
-    def new_r():
-        eel.new_row(len(Editor.handler.cols_data))
-        
-    @eel.expose
-    def recreate(table):
-        Editor.__init__(Editor, Editor.db, table)
+    def get_len():
+        return len(Editor.handler.cols_data)

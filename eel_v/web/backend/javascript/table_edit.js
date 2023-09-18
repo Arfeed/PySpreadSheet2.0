@@ -1,7 +1,10 @@
-eel.set_table()
+eel.get_table_data()().then(show_t)
 
-eel.expose(show_t)
-function show_t(table_data, data, foreign_data){
+function show_t(main_frame){
+    let table_data = main_frame[0]
+    let data = main_frame[1]
+    let foreign_data = main_frame[2]
+
     let table = document.querySelector('table#main')
     let tr_1 = document.createElement('tr')
     tr_1.id = "not_row"
@@ -54,16 +57,14 @@ function handle_exception(ind){
     el.onclick = on_click.bind(null, el)
 }
 
-eel.expose(new_row)
-function new_row(num){
-
-    let row = num
+function new_row(len){
+    console.log(len)
     let table = document.querySelector('table#main')
 
     let tr = document.createElement('tr')
     tr.id = 'row'
 
-    for (let i = 0; i < row; ++i){
+    for (let i = 0; i < len; ++i){
 
 
         let td = document.createElement('td')
@@ -84,12 +85,9 @@ function new_row(num){
 eel.expose(alert_edit)
 function alert_edit(text){alert(text)}
 
-eel.expose(go_to_connect_edit)
-function go_to_connect_edit(){window.location.href = 'http://localhost:8000/frontend/connect.html'}
-
 
 function go_to_foreign(table){
-    eel.recreate(table)
+    eel.open_table(table)
     window.location.reload()
 }
 
@@ -135,14 +133,35 @@ function switch_theme() {
     if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
 
         document.getElementById('stylesheet').href = 'table_edit.css'
+        document.getElementById('colors').href = 'colors.css'
+        eel.set_val(false)
     }
     else{
 
         document.getElementById('stylesheet').href = 'dark.css'
+        document.getElementById('colors').href = ''
+        eel.set_val(true)
     }
 
 }
 
-function save(){eel.save(get())}
+function onload(){
 
-function add_new(){eel.new_r()}
+    var url = "../backend/user/settings.ini"
+    var xhr = new XMLHttpRequest()
+
+    xhr.open('GET', url)
+    xhr.send()
+
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                eel.process_string(xhr.responseText)().then(function(value){if (value){switch_theme()}})
+            }
+        }
+    }
+
+}
+
+
+function save(){eel.save(get())}

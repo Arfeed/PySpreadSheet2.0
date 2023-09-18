@@ -28,10 +28,11 @@ class TableCreate:
         
         if TableCreate.test_for_error(TableCreate.db.make_command(query, True)):
             eel.alert_create('Таблица не была создана!')
+            return False
         else:
             eel.alert_create('Таблица создана успешно!')
         
-        eel.go_to_tch()
+        return True
 
     def test_for_error(exp):#проверка на ошибку
         if DatabaseError in type(exp).__bases__:

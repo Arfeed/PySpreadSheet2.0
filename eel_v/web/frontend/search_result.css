@@ -1,0 +1,40 @@
+h1 {
+
+	border-radius: 8px;
+	width: 25vw;
+	height:50px;
+	font: 2vw 'Andale Mono', monospace;
+
+}
+
+button{
+
+	font: 12pt 'Andale Mono', monospace;
+	border-radius: 8px;
+
+}
+
+.back_button{
+
+	width: 40px;
+
+}
+
+.theme_switch{
+
+	border-radius: 10px;
+	width: 25px;
+	height: 25px;
+	background-image: url('images/moon.png');
+	background-size: cover;
+
+}
+
+.el_div{
+	
+	text-align: center;
+	border-radius: 8px;
+	width: 25vw;
+	height: auto;
+
+}

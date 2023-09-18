@@ -1,6 +1,3 @@
-eel.expose(go_to_tch)
-function go_to_tch(){window.location.href = 'http://localhost:8000/frontend/table_chose.html'}
-
 eel.expose(alert_create)
 function alert_create(text){alert(text)}
 
@@ -163,10 +160,32 @@ function switch_theme() {
     if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
 
         document.getElementById('stylesheet').href = 'table_create.css'
+        document.getElementById('colors').href = 'colors.css'
+        eel.set_val(false)
     }
     else{
 
         document.getElementById('stylesheet').href = 'dark.css'
+        document.getElementById('colors').href = ''
+        eel.set_val(ture)
+    }
+
+}
+
+function onload(){
+
+    var url = "../backend/user/settings.ini"
+    var xhr = new XMLHttpRequest()
+
+    xhr.open('GET', url)
+    xhr.send()
+
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                eel.process_string(xhr.responseText)().then(function(value){if (value){switch_theme()}})
+            }
+        }
     }
 
 }

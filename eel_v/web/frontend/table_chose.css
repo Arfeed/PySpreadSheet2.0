@@ -34,7 +34,7 @@ button{
 
 #exec{
 
-	width: 1vw;
+	width: 25px;
 
 }
 
@@ -55,6 +55,12 @@ button, input {
 #main_table{
 
 	margin-top: 25px;
+
+}
+
+#search{
+
+	width: 4vw;
 
 }
 

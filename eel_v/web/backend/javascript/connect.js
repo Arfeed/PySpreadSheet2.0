@@ -12,25 +12,52 @@ function set_data(data){
 eel.expose(alert_connect)
 function alert_connect(text){alert(text)}
 
-eel.expose(tch_connect)
-function tch_connect(){window.location.href = 'http://localhost:8000/frontend/table_chose.html'}
+function give_data(){
 
-eel.expose(connect_switch)
-function connect_switch(){switch_theme()}
+    eel.take_data([document.getElementById('host').value, document.getElementById('user').value, document.getElementById('password').value, document.getElementById('database').value], document.getElementById('remember').value)().then(function(value){
+
+        if (value){
+
+            window.location.href = 'http://localhost:8000/frontend/table_chose.html'
+
+        }
+    })
+}
 
 function switch_theme() {
     
     if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
 
         document.getElementById('stylesheet').href = 'connect.css'
-        eel.dt_connect(false)
+        document.getElementById('colors').href = 'colors.css'
+        eel.set_val(false)
 
     }
     else{
 
         document.getElementById('stylesheet').href = 'dark.css'
-        eel.dt_connect(true)
+        document.getElementById('colors').href = ''
+        eel.set_val(true)
 
+    }
+
+}
+
+function onload(){
+
+    var url = "../backend/user/settings.ini"
+    var xhr = new XMLHttpRequest()
+
+    xhr.open('GET', url)
+    xhr.send()
+
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                eel.process_string(xhr.responseText)().then(function(value){console.log(value)})
+                eel.process_string(xhr.responseText)().then(function(value){if (value){switch_theme()}})
+            }
+        }
     }
 
 }

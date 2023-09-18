@@ -29,16 +29,6 @@ function alert_chose(text){alert(text)}
 eel.expose(reload)
 function reload(){clear();eel.load_tables()}
 
-eel.expose(to_connect)
-function to_connect(){window.location.href = 'http://localhost:8000/frontend/connect.html'}
-
-eel.expose(to_instance)
-function to_instance(){window.location.href = 'http://localhost:8000/frontend/table_instance.html'}
-
-eel.expose(table_chose_switch)
-function table_chose_switch(){console.log('a');switch_theme()}
-
-
 function delete_last(){
     eel.delete_last_table()
     reload()
@@ -51,7 +41,12 @@ function on_table(name){
 
 function make_command(){
     var command = document.getElementById('command')
-    eel.make_command(command.value)
+    eel.make_command(command.value)().then(function(value){
+        if (value){
+            window.location.href = 'http://localhost:8000/frontend/table_instance.html'
+        }
+    })
+
 }
 
 function clear(){
@@ -65,8 +60,16 @@ function clear(){
     div.appendChild(table)
 }
 
+function search_value(){
+
+    var search_target = document.getElementById('search_value')
+    eel.search(search_target.value)
+    window.location.href = 'http://localhost:8000/frontend/search_result.html'
+
+}
+
 function go_to_create(){
-    eel.to_create()
+    eel.create()
     window.location.href = 'http://localhost:8000/frontend/table_create.html'
 }
 
@@ -75,14 +78,38 @@ function switch_theme() {
     if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
 
         document.getElementById('stylesheet').href = 'table_chose.css'
-        eel.dt_table_chose(false)
+        document.getElementById('colors').href = 'colors.css'
+        eel.set_val(false)
 
     }
     else{
 
         document.getElementById('stylesheet').href = 'dark.css'
-        eel.dt_table_chose(true)
+        document.getElementById('colors').href = ''
+        eel.set_val(true)
 
+    }
+
+}
+
+function onload(){
+
+    var url = "../backend/user/settings.ini"
+    var xhr = new XMLHttpRequest()
+
+    xhr.open('GET', url)
+    xhr.send()
+
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                eel.process_string(xhr.responseText)().then(function(value){
+                    if (value){
+                        switch_theme()
+                    }
+                })
+            }
+        }
     }
 
 }

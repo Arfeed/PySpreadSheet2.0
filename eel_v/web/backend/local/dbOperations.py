@@ -6,7 +6,7 @@ from web.backend.local.logger import Logger
 
 class DataBase():#класс базы данных
 
-    def __init__(self, host, user, password, database):
+    def __init__(self, host : str, user : str, password : str, database : str):
         self.logger = Logger('DataBase', './web/backend/logs/logs.log')
         self.host_name = host
         self.user_name = user
@@ -33,7 +33,7 @@ class DataBase():#класс базы данных
         
         return connection
 
-    def make_command(self, command, is_change):#метод для выполнения команл скюл
+    def make_command(self, command : str, is_change : bool):#метод для выполнения команл скюл
         try:
             self.cursor = self.connection.cursor(buffered=True)
             self.logger.log('Cursor for command is OK.')

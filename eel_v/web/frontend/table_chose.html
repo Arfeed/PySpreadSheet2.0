@@ -6,13 +6,14 @@
 
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href = "table_chose.css" id = 'stylesheet'>
+        <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
         <script type="text/javascript" src="../eel.js"></script>
         <script type="text/javascript" src="../backend/javascript/table_chose.js"></script>
         <title>Table Chose</title>
 
     </head>
 
-    <body>
+    <body onload = 'onload()'>
         <button class="theme_switch" onclick="switch_theme()"></button>
         <center>
             <div class = "main">
@@ -21,6 +22,14 @@
                     <h1>Table Chose</h1>
 
                     <table id = "command_tb">
+                        <tr>
+                            <td colspan="2">
+                                <input id = 'search_value'>
+                            </td>
+                            <td>
+                                <button id = 'search' onclick = 'search_value()'>Найти</button>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="2">
                                 <input id = 'command'>

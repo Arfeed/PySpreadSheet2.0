@@ -15,11 +15,11 @@ class Execute:
             res = self.db.make_command(command, True)
             if not (Error in type(res).__bases__ or DatabaseError in type(res).__bases__):
                 Instance(self.db, command)
-                eel.to_instance()
+                return True
             else:
                 eel.alert_chose("Ошибка! Результат - " + str(res))
                 eel.reload()
-                return 1
+                return False
 
         elif command.lower().startswith('drop'):#если начинается с дроп
             if eel.ask('Вы собираетесь что-то удалить. Вы уверены?')():
@@ -27,20 +27,18 @@ class Execute:
                 if Error in type(res).__bases__ or DatabaseError in type(res).__bases__:
                     eel.alert_chose("Ошибка! Результат - " + str(res))
                     eel.reload()
-                    return 1
+                    return False
                 eel.reload()
-
+                return True
             else:
-                return 0
+                return False
         
         else:#если команда-ноунейм
             res = self.db.make_command(command, True)
             if Error in type(res).__bases__ or DatabaseError in type(res).__bases__:
                     eel.alert_chose("Ошибка! Результат - " + str(res))
                     eel.reload()
-                    return 1
+                    return False
             eel.alert_chose("Успешно! Результат - " + str(res))
             eel.reload()
-            
-        return 0
-        
+            return True

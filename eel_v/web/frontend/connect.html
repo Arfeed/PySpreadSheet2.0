@@ -6,12 +6,13 @@
 
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href = "connect.css" id = 'stylesheet'>
+        <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
         <script type="text/javascript" src="../eel.js"></script>
         <script type="text/javascript" src="../backend/javascript/connect.js"></script>
         <title>Connect</title>
 
     </head>
-    <body>
+    <body onload = 'onload()'>
         <button class="theme_switch" onclick="switch_theme()"></button>
         <center>
             <h1>Connect</h1>
@@ -37,7 +38,7 @@
 
                 <input type="checkbox" id="remember">Запомнить</input>
 
-                <button type="submit" onclick="eel.take_data([document.getElementById('host').value, document.getElementById('user').value, document.getElementById('password').value, document.getElementById('database').value], document.getElementById('remember').value)">Подключиться</button>
+                <button type="submit" onclick="give_data()">Подключиться</button>
             </center>
         </div>
     </body>
