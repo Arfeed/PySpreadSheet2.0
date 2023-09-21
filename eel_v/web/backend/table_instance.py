@@ -12,11 +12,7 @@ class Instance:#для выовда селекта
         Instance.db = db
         Instance.result = db.make_command(command, False)
         Instance.number.append(self)
-    
-    def __del_garbage():
-        print(Instance.number)
-        if len(Instance.number) > 3:
-            print(gc.collect())
+        print(Instance.__del_garbage(self))
 
     @eel.expose
     def show_r():

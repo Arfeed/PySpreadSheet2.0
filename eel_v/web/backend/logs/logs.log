@@ -1143,3 +1143,124 @@ DataBase:2023-09-16 17:13:36.753309:Cursor for command is OK.
 DataBase:2023-09-16 17:13:36.754356:Command 'SELECT RC.TABLE_NAME, RC.REFERENCED_TABLE_NAME, KCU.COLUMN_NAME, KCU.REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS RC JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE KCU USING(CONSTRAINT_NAME) WHERE RC.TABLE_NAME = "test";' completed with is_change = False.
 DataBase:2023-09-16 17:13:37.562062:Cursor for command is OK.
 DataBase:2023-09-16 17:13:37.563085:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:07:22.798907:Program Start Here
+DataBase:2023-09-21 16:07:23.057362:Connection is OK.
+DataBase:2023-09-21 16:07:23.057362:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:07:23.457909:Cursor for command is OK.
+DataBase:2023-09-21 16:07:23.525624:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:07:36.365894:Cursor for command is OK.
+DataBase:2023-09-21 16:07:36.397889:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:07:36.397889:Cursor for command is OK.
+DataBase:2023-09-21 16:07:36.397889:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:10:19.350732:Program Start Here
+DataBase:2023-09-21 16:10:19.375284:Connection is OK.
+DataBase:2023-09-21 16:10:19.375284:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:10:19.770060:Cursor for command is OK.
+DataBase:2023-09-21 16:10:19.772054:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:10:31.693752:Cursor for command is OK.
+DataBase:2023-09-21 16:10:31.694757:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:10:31.694757:Cursor for command is OK.
+DataBase:2023-09-21 16:10:31.694757:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:11:02.813779:Program Start Here
+DataBase:2023-09-21 16:11:02.834213:Connection is OK.
+DataBase:2023-09-21 16:11:02.834213:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:11:03.218022:Cursor for command is OK.
+DataBase:2023-09-21 16:11:03.219052:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:11:09.718393:Cursor for command is OK.
+DataBase:2023-09-21 16:11:09.719393:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:11:09.720388:Cursor for command is OK.
+DataBase:2023-09-21 16:11:09.720388:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:11:58.606454:Program Start Here
+DataBase:2023-09-21 16:11:58.630698:Connection is OK.
+DataBase:2023-09-21 16:11:58.630698:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:11:59.027475:Cursor for command is OK.
+DataBase:2023-09-21 16:11:59.030467:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:12:08.510031:Cursor for command is OK.
+DataBase:2023-09-21 16:12:08.511028:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:12:08.511028:Cursor for command is OK.
+DataBase:2023-09-21 16:12:08.511028:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:12:11.169253:Cursor for command is OK.
+DataBase:2023-09-21 16:12:11.170252:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:12:56.958416:Program Start Here
+DataBase:2023-09-21 16:12:56.978331:Connection is OK.
+DataBase:2023-09-21 16:12:56.978331:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:12:57.371733:Cursor for command is OK.
+DataBase:2023-09-21 16:12:57.372759:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:13:06.565455:Cursor for command is OK.
+DataBase:2023-09-21 16:13:06.567050:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:13:06.567050:Cursor for command is OK.
+DataBase:2023-09-21 16:13:06.567050:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:13:09.050748:Cursor for command is OK.
+DataBase:2023-09-21 16:13:09.052362:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:13:11.333620:Cursor for command is OK.
+DataBase:2023-09-21 16:13:11.334616:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:13:11.334616:Cursor for command is OK.
+DataBase:2023-09-21 16:13:11.334616:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:13:13.236572:Cursor for command is OK.
+DataBase:2023-09-21 16:13:13.237570:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:13:14.830424:Cursor for command is OK.
+DataBase:2023-09-21 16:13:14.830424:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:13:14.831422:Cursor for command is OK.
+DataBase:2023-09-21 16:13:14.831422:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:13:17.783429:Cursor for command is OK.
+DataBase:2023-09-21 16:13:17.784425:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:13:19.374264:Cursor for command is OK.
+DataBase:2023-09-21 16:13:19.375262:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:13:19.375262:Cursor for command is OK.
+DataBase:2023-09-21 16:13:19.376285:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:14:25.661487:Program Start Here
+DataBase:2023-09-21 16:14:25.686827:Connection is OK.
+DataBase:2023-09-21 16:14:25.687824:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:14:26.370841:Cursor for command is OK.
+DataBase:2023-09-21 16:14:26.371841:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:14:28.838212:Cursor for command is OK.
+DataBase:2023-09-21 16:14:28.839204:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:14:28.839204:Cursor for command is OK.
+DataBase:2023-09-21 16:14:28.839204:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:14:30.634582:Cursor for command is OK.
+DataBase:2023-09-21 16:14:30.635583:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:14:32.285643:Cursor for command is OK.
+DataBase:2023-09-21 16:14:32.286644:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:14:32.286644:Cursor for command is OK.
+DataBase:2023-09-21 16:14:32.287640:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:14:33.810887:Cursor for command is OK.
+DataBase:2023-09-21 16:14:33.811885:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:14:35.294187:Cursor for command is OK.
+DataBase:2023-09-21 16:14:35.295216:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:14:35.295216:Cursor for command is OK.
+DataBase:2023-09-21 16:14:35.296186:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:14:37.053961:Cursor for command is OK.
+DataBase:2023-09-21 16:14:37.054958:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:14:38.510338:Cursor for command is OK.
+DataBase:2023-09-21 16:14:38.510338:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:14:38.511335:Cursor for command is OK.
+DataBase:2023-09-21 16:14:38.511335:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:14:43.160886:Cursor for command is OK.
+DataBase:2023-09-21 16:14:43.162881:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:15:27.581503:Program Start Here
+DataBase:2023-09-21 16:15:27.607486:Connection is OK.
+DataBase:2023-09-21 16:15:27.607486:Complete login for user root at host localhost.
+DataBase:2023-09-21 16:15:28.003185:Cursor for command is OK.
+DataBase:2023-09-21 16:15:28.005180:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:15:30.414210:Cursor for command is OK.
+DataBase:2023-09-21 16:15:30.415206:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:15:30.415206:Cursor for command is OK.
+DataBase:2023-09-21 16:15:30.415206:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:15:32.034580:Cursor for command is OK.
+DataBase:2023-09-21 16:15:32.035574:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:15:33.285496:Cursor for command is OK.
+DataBase:2023-09-21 16:15:33.286495:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:15:33.286495:Cursor for command is OK.
+DataBase:2023-09-21 16:15:33.286495:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:15:34.792026:Cursor for command is OK.
+DataBase:2023-09-21 16:15:34.793025:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:15:36.709948:Cursor for command is OK.
+DataBase:2023-09-21 16:15:36.709948:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:15:36.709948:Cursor for command is OK.
+DataBase:2023-09-21 16:15:36.710934:Command 'select * from test;' completed with is_change = False.
+DataBase:2023-09-21 16:15:38.480159:Cursor for command is OK.
+DataBase:2023-09-21 16:15:38.481156:Command 'select table_name from information_schema.tables where table_schema = "test";' completed with is_change = False.
+DataBase:2023-09-21 16:15:42.013828:Cursor for command is OK.
+DataBase:2023-09-21 16:15:42.014889:Command 'select * from test;' completed with is_change = True.
+DataBase:2023-09-21 16:15:42.014889:Cursor for command is OK.
+DataBase:2023-09-21 16:15:42.014889:Command 'select * from test;' completed with is_change = False.
