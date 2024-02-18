@@ -23,3 +23,19 @@ body {
 	background-color: lightgray;
 
 }
+td{padding: .3em 1em;}
+
+.back_button{
+
+	width: 40px;
+
+}
+
+.theme_switch{
+
+	border-radius: 10px;
+	width: 25px;
+	background-image: url('images/moon.png');
+	background-size: cover;
+
+}

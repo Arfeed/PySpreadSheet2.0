@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href = "table_create.css" id = 'stylesheet'>
         <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
         <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/common.js"></script>
         <script type="text/javascript" src="../backend/javascript/table_create.js"></script>
         <title>Table Create</title>
         
@@ -20,19 +21,22 @@
             <table>
 
                 <tr>
-                    <td colspan="3">
+                    <td colspan="4">
                         <input id = "name" value="Название" size="49" style="padding:0;margin:0;">
                     </td>
                 </tr>
                 <tr>
-                    <td width="33%" align="center">
+                    <td width="25%" align="center">
                         <button id = "create_col" onclick="add_column()">Создать Колонку</button>
                     </td>
-                    <td width="33%" align="center">
+                    <td width="25%" align="center">
                         <button id = "delete_col" onclick="delete_column()" >Удалить Колонку</button>
                     </td>
-                    <td width="33%" align="center">
+                    <td width="25%" align="center">
                         <button id = "done" onclick="done()">Завершить</button>
+                    </td>
+                    <td width="25%" align="center">
+                        <button id = "donenedit" onclick="donenedit()">Создать и редактировать</button>
                     </td>
                 </tr>
 

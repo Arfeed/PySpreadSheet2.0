@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href = "table_chose.css" id = 'stylesheet'>
         <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
         <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/common.js"></script>
         <script type="text/javascript" src="../backend/javascript/table_chose.js"></script>
         <title>Table Chose</title>
 
@@ -22,6 +23,11 @@
                     <h1>Table Chose</h1>
 
                     <table id = "command_tb">
+                        <tr>
+                            <td>
+                                <button id = 'search' onclick = 'window.location.href = "http://localhost:8000/frontend/help.html"'>?</button>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="2">
                                 <input id = 'search_value'>

@@ -1,41 +1,3 @@
-function onload(){
-
-    var url = "../backend/user/settings.ini"
-    var xhr = new XMLHttpRequest()
-
-    xhr.open('GET', url)
-    xhr.send()
-
-    xhr.onreadystatechange = function(){
-        if (xhr.readyState == 4) {
-            if (xhr.status == 200) {
-                eel.process_string(xhr.responseText)().then(function(value){console.log(value)})
-                eel.process_string(xhr.responseText)().then(function(value){if (value){switch_theme()}})
-            }
-        }
-    }
-
-    eel.get_search_result()().then(show_table, function(){})
-
-}
-
-function switch_theme() {
-    
-    if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
-
-        document.getElementById('stylesheet').href = 'search_result.css'
-        document.getElementById('colors').href = 'colors.css'
-        eel.set_val(false)
-    }
-    else{
-
-        document.getElementById('stylesheet').href = 'dark.css'
-        document.getElementById('colors').href = ''
-        eel.set_val(true)
-    }
-
-}
-
 function load_tables(table, support_table){
 
 
@@ -58,8 +20,18 @@ function load_tables(table, support_table){
 
 
 function show_table(res){
-    let table = document.getElementById('main')
+    console.log(res)
+    if (res.length == 0){
 
+        cnt = document.createElement('center')
+        tmp = document.createElement('h1')
+        tmp.innerHTML = 'Ничего не найдено'
+        cnt.appendChild(tmp)
+        document.body.appendChild(cnt)
+        return
+
+    }
+    let table = document.getElementById('main')
     for (let i = 0; i < res.length; i++){
 
         let support_table = document.createElement('table')

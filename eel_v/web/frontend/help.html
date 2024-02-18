@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href = "table_chose.css" id = 'stylesheet'>
+        <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
+        <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/common.js"></script>
+        <title>Table Create</title>
+        
+    </head>
+
+    <body onload="onload()">
+
+        <button onclick="window.location.href = 'http://localhost:8000/frontend/table_chose.html'" class = "back_button">←</button>
+        <button class="theme_switch" onclick="switch_theme()"></button>
+        <center>
+            <div class = 'main'>
+                <h1>Help</h1>
+                <table border="1">
+                    <tr>
+                        <th style="width:120px">Character</th>
+                        <th>Description</th>
+                        <th style="width:120px">Example</th>
+                    </tr>
+                    <tr>
+                        <td>[]</td>
+                        <td>A set of characters</td>
+                        <td>"[a-m]"</td>
+                    </tr>
+                    <tr>
+                        <td>\</td>
+                        <td>Signals a special sequence (can also be used to escape special characters)</td>
+                        <td>"\d"</td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td>Any character (except newline character)</td>
+                        <td>"he..o"</td>
+                    </tr>
+                    <tr>
+                        <td>^</td>
+                        <td>Starts with</td>
+                        <td>"^hello"</td>
+                    </tr>
+                    <tr>
+                        <td>$</td>
+                        <td>Ends with</td>
+                        <td>"planet$"</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>Zero or more occurrences</td>
+                        <td>"he.*o"</td>
+                    </tr>
+                    <tr>
+                        <td>+</td>
+                        <td>One or more occurrences</td>
+                        <td>"he.+o"</td>
+                    </tr>
+                    <tr>
+                        <td>?</td>
+                        <td>Zero or one occurrences</td>
+                        <td>"he.?o"</td>
+                    </tr>
+                    <tr>
+                        <td>{}</td>
+                        <td>Exactly the specified number of occurrences</td>
+                        <td>"he.{2}o"</td>
+                    </tr>
+                    <tr>
+                        <td>|</td>
+                        <td>Either or</td>
+                        <td>"falls|stays"</td>
+                    </tr>
+                    <tr>
+                        <td>()</td>
+                        <td>Capture and group</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>\A</td>
+                        <td>Returns a match if the specified characters are at the beginning of the 
+                        string</td>
+                        <td>"\AThe"</td>
+                    </tr>
+                    <tr>
+                        <td>\b</td>
+                        <td>Returns a match where the specified characters are at the beginning or at the 
+                        end of a word<br>(the "r" in the beginning is making sure that the string is 
+                        being treated as a "raw string")</td>
+                        <td>r"\bain"<br>r"ain\b"</td>
+                    </tr>
+                    <tr>
+                        <td>\B</td>
+                        <td>Returns a match where the specified characters are present, but NOT at the beginning 
+                        (or at 
+                        the end) of a word<br>(the "r" in the beginning is making sure that the string 
+                        is being treated as a "raw string")</td>
+                        <td>r"\Bain"<br>r"ain\B"</td>
+                    </tr>
+                    <tr>
+                        <td>\d</td>
+                        <td>Returns a match where the string contains digits (numbers from 0-9)</td>
+                        <td>"\d"</td>
+                    </tr>
+                    <tr>
+                        <td>\D</td>
+                        <td>Returns a match where the string DOES NOT contain digits</td>
+                        <td>"\D"</td>
+                    </tr>
+                    <tr>
+                        <td>\s</td>
+                        <td>Returns a match where the string contains a white space character</td>
+                        <td>"\s"</td>
+                    </tr>
+                    <tr>
+                        <td>\S</td>
+                        <td>Returns a match where the string DOES NOT contain a white space character</td>
+                        <td>"\S"</td>
+                    </tr>
+                    <tr>
+                        <td>\w</td>
+                        <td>Returns a match where the string contains any word characters (characters from 
+                        a to Z, digits from 0-9, and the underscore _ character)</td>
+                        <td>"\w"</td>
+                    </tr>
+                    <tr>
+                        <td>\W</td>
+                        <td>Returns a match where the string DOES NOT contain any word characters</td>
+                        <td>"\W"</td>
+                    </tr>
+                    <tr>
+                        <td>\Z</td>
+                        <td>Returns a match if the specified characters are at the end of the string</td>
+                        <td>"Spain\Z"</td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </body>
+
+</html>

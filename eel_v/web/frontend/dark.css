@@ -3,6 +3,11 @@ body {
 	background-color: rgb(43, 43, 43);
 
 }
+td, th{
+
+	color: azure;
+
+}
 
 h1 {
 
@@ -15,7 +20,7 @@ h1 {
 
 .main{
 
-    width: 30%;
+    width: 50%;
 	height: auto;
 
 }
@@ -38,7 +43,7 @@ button, input {
 
 input {
 
-    width: 98%;
+    width: 99.54%;
 
 }
 
@@ -63,6 +68,12 @@ button {
 
 }
 
+.back_button{
+
+	width: 40px;
+
+}
+
 em {
 
 	color: azure;
@@ -74,3 +85,5 @@ em {
 	text-align: center;
 
 }
+
+td{padding: .3em 1em;}

@@ -2,6 +2,7 @@ import eel
 
 from web.backend.local.table_handler import Handler
 from web.backend.local.dbOperations import DataBase
+from web.backend.sheet_analysis import Analyser
 from web.backend.local.error import *
 
 class Editor:#класс интерфейса
@@ -31,3 +32,8 @@ class Editor:#класс интерфейса
     @eel.expose
     def get_len():
         return len(Editor.handler.cols_data)
+    
+    @eel.expose
+    def go_to_analysis():
+        Analyser(Editor.db, Editor.table)
+        

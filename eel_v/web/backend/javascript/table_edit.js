@@ -91,6 +91,13 @@ function go_to_foreign(table){
     window.location.reload()
 }
 
+function go_to_analyser(){
+
+    eel.go_to_analysis()
+    window.location.href = 'http://localhost:8000/frontend/sheet_analysis.html'
+
+}
+
 function remove_last(){
     let table = document.querySelector('table#main')
     let rows = table.getElementsByTagName('tr')
@@ -127,41 +134,5 @@ function clear(){
         rows[i].remove()
     }
 }
-
-function switch_theme() {
-    
-    if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
-
-        document.getElementById('stylesheet').href = 'table_edit.css'
-        document.getElementById('colors').href = 'colors.css'
-        eel.set_val(false)
-    }
-    else{
-
-        document.getElementById('stylesheet').href = 'dark.css'
-        document.getElementById('colors').href = ''
-        eel.set_val(true)
-    }
-
-}
-
-function onload(){
-
-    var url = "../backend/user/settings.ini"
-    var xhr = new XMLHttpRequest()
-
-    xhr.open('GET', url)
-    xhr.send()
-
-    xhr.onreadystatechange = function(){
-        if (xhr.readyState == 4) {
-            if (xhr.status == 200) {
-                eel.process_string(xhr.responseText)().then(function(value){if (value){switch_theme()}})
-            }
-        }
-    }
-
-}
-
 
 function save(){eel.save(get())}

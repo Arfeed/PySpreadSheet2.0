@@ -120,6 +120,13 @@ function delete_column(){
 
 }
 
+function reset(){
+
+    eel.create()
+    window.location.reload()
+
+}
+
 function done(){
 
     let table = document.querySelector('table#main')
@@ -147,6 +154,7 @@ function done(){
     if (table.querySelectorAll('tr').length > 0){
 
         eel.create_table([document.getElementById('name').value, cols, table.querySelectorAll('tr').length])
+        reset()
 
     }
 
@@ -155,37 +163,10 @@ function done(){
     else{alert('Должен быть хотя-бы 1 столбец!')}
 }
 
-function switch_theme() {
-    
-    if (document.getElementById('stylesheet').href == 'http://localhost:8000/frontend/dark.css'){
+function donenedit(){
 
-        document.getElementById('stylesheet').href = 'table_create.css'
-        document.getElementById('colors').href = 'colors.css'
-        eel.set_val(false)
-    }
-    else{
-
-        document.getElementById('stylesheet').href = 'dark.css'
-        document.getElementById('colors').href = ''
-        eel.set_val(ture)
-    }
-
-}
-
-function onload(){
-
-    var url = "../backend/user/settings.ini"
-    var xhr = new XMLHttpRequest()
-
-    xhr.open('GET', url)
-    xhr.send()
-
-    xhr.onreadystatechange = function(){
-        if (xhr.readyState == 4) {
-            if (xhr.status == 200) {
-                eel.process_string(xhr.responseText)().then(function(value){if (value){switch_theme()}})
-            }
-        }
-    }
+    done()
+    eel.open_table(document.getElementById('name').value)
+    window.location.href = 'http://localhost:8000/frontend/table_edit.html'
 
 }

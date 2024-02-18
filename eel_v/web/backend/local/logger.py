@@ -7,5 +7,5 @@ class Logger:
         self.log('Program Start Here')
     
     def log(self, text):
-        self.log_file.write(f'{self.name}:{str(datetime.now())}:{text}\n')
+        self.log_file.write(f'{self.name}:{str(datetime.now())}:{str(text)}\n')
         self.log_file.flush()

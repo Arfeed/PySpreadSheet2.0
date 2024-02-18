@@ -1,4 +1,5 @@
 import eel
+import re
 
 from ..backend.local.dbOperations import DataBase
 
@@ -21,7 +22,10 @@ class Search:
         for table in data:
             Search.result.append([table[0], []])
             for row in table[1][0]:
-                if Search.target in row:
+                form_str = ' '.join(map(lambda x: str(x), row))
+                print(form_str)
+                if re.search(
+                    Search.target, form_str):
                     Search.result[-1][1].append(row)
         
         Search.clean_result(Search.result)

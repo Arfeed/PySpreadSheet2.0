@@ -6,4 +6,4 @@ eel.init('web')
 
 Connect()
 
-eel.start('frontend/connect.html', mode=False)
+eel.start('frontend/connect.html')

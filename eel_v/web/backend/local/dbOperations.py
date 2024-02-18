@@ -39,6 +39,7 @@ class DataBase():#класс базы данных
             self.logger.log('Cursor for command is OK.')
             
             if is_change:#если второй аргумент тру, то команда должна что-то добавлять\изменять\удалять, а если фолз, то возвращать штуки
+                print(command)
                 self.cursor.execute(command)
                 self.cursor.close()
                 self.cursor = self.connection.cursor(buffered=True)
@@ -47,6 +48,7 @@ class DataBase():#класс базы данных
                 return 0
             
             else:
+                print(command)
                 self.cursor.execute(command)
                 res = self.cursor.fetchall()
                 self.cursor.close()

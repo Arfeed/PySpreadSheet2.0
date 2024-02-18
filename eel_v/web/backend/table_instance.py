@@ -6,13 +6,9 @@ from mysql.connector.errors import Error
 
 class Instance:#для выовда селекта
 
-    number = []
-
     def __init__(self, db : DataBase, command):
         Instance.db = db
         Instance.result = db.make_command(command, False)
-        Instance.number.append(self)
-        print(Instance.__del_garbage(self))
 
     @eel.expose
     def show_r():

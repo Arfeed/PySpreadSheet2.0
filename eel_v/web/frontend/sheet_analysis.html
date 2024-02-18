@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href = "sheet_analysis.css" id = 'stylesheet'>
+        <link rel="stylesheet" type="text/css" href = "colors.css" id = 'colors'>
+        <script type="text/javascript" src="../eel.js"></script>
+        <script type="text/javascript" src="../backend/javascript/common.js"></script>
+        <script type="text/javascript" src="../backend/javascript/sheet_analysis.js"></script>
+        <title>Analysis</title>
+
+    </head>
+    <body onload = 'onload();set_opt()'>
+        <table>
+            <tr>
+                <button onclick="window.location.href = 'http://localhost:8000/frontend/table_chose.html'" class = "back_button">←</button>
+                <button class="theme_switch" onclick="switch_theme()"></button>
+            </tr>
+            <tr>
+                <td>
+                    <p>Выберите колонку</p>
+                    <select id="select"></select>
+                    <button onclick="analysis('view_procent')">Проанализировать</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Выберите колонки</p>
+                    <select id="s1"></select>
+                    <select id="s2"></select>
+                    <button onclick="analysis('procent_proportion')">Проанализировать</button>
+                </td>
+            </tr>
+        </table>
+
+        <table id = 'main' border="2px"></table>
+    </body>
+</html>

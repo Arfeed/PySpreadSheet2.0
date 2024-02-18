@@ -19,7 +19,7 @@ h1 {
 
 button{
 
-	width: 30vw;
+	width: 10vw;
 	height: 25px;
 	background-color: azure;
 
@@ -29,7 +29,7 @@ button, input {
 
 	font: 12pt 'Andale Mono', monospace;
 	color: gray;
-  border-radius: 8px;
+	border-radius: 8px;
 
 }
 
